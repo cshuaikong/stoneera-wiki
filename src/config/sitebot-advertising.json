@@ -3,5 +3,56 @@
   "provider": "adsterra",
   "domain": "stoneera.wiki",
   "layout": "social-native-horizontal-shared-rails",
-  "slots": []
+  "slots": [
+    {
+      "id": "native-bottom",
+      "kind": "native",
+      "enabled": true,
+      "key": "ea8c6bb5dd3a8a647e9c7d50b57ccbd6",
+      "scriptUrl": "https://bauval.org/21/ea8c6bb5dd3a8a647e9c7d50b57ccbd6"
+    },
+    {
+      "id": "banner-728x90",
+      "kind": "banner",
+      "enabled": true,
+      "key": "75da4c6d30e4ce447efd376284b90439",
+      "scriptUrl": "https://bauval.org/22/75da4c6d30e4ce447efd376284b90439",
+      "width": 728,
+      "height": 90
+    },
+    {
+      "id": "banner-468x60",
+      "kind": "banner",
+      "enabled": true,
+      "key": "42c3566806396cad4a16765b2d61758f",
+      "scriptUrl": "https://bauval.org/22/42c3566806396cad4a16765b2d61758f",
+      "width": 468,
+      "height": 60
+    },
+    {
+      "id": "banner-320x50",
+      "kind": "banner",
+      "enabled": true,
+      "key": "c9462be3b3ff4520883b4e006a63d5d8",
+      "scriptUrl": "https://bauval.org/22/c9462be3b3ff4520883b4e006a63d5d8",
+      "width": 320,
+      "height": 50
+    },
+    {
+      "id": "banner-160x600",
+      "kind": "banner",
+      "enabled": true,
+      "key": "9987c09d9397b381aaf8bdb98e83e23c",
+      "scriptUrl": "https://bauval.org/22/9987c09d9397b381aaf8bdb98e83e23c",
+      "width": 160,
+      "height": 600
+    },
+    {
+      "id": "social-bar",
+      "kind": "social",
+      "enabled": true,
+      "key": "e28facdb5209dd6ffa6a5d6c5d973f20",
+      "scriptUrl": "https://bauval.org/14/e28facdb5209dd6ffa6a5d6c5d973f20"
+    }
+  ]
 }
