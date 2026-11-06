@@ -1,0 +1,60 @@
+---
+title: 保存建筑计划，再放进自己的殖民地
+description: 从 StoneEra Building Editor 保存本地设计，在 Buildings 找到计划，并核对普通模式的研究、材料和通路，不把设计卡片当成已建成房屋。
+category: building
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/building-editor-and-plans.webp
+tags:
+  - building
+  - demo
+  - controls
+gameVersion: Demo 0.9.18
+summary: 在 Building Editor 创建设计并保存到本地，再从殖民地的 Buildings 选择它。计划可以重复使用，但放置计划不代表建筑已经完成；普通模式仍要查看研究、材料与通路条件。.stoneera-building 用于导出导入设计，Copy Area 和 Clone 则是应分开理解的工具。
+author: StoneEra Wiki Team
+faq:
+  - question: Buildings 为什么没有我的设计？
+    answer: 0.9.14.1 要求先在 Building Editor 创建并保存本地计划。0.9.15 后另有三种起始房屋，因此也要确认当前版本和正在查看哪一种列表。
+  - question: 计划可以包含家具吗？
+    answer: 开发者明确说可包含家具和生产站。设计里有这些对象，不代表殖民地已经拥有所需研究或材料。
+  - question: 分享计划用什么格式？
+    answer: 0.9.14.2 引入可携带的 .stoneera-building 文件来导出导入本地设计。来源没有提供经过核实的通用系统目录，也没有保证所有未来版本都能相互兼容。
+  - question: Copy Area 的 Y/H 和 Enter 有什么作用？
+    answer: 0.9.15 说松开后保留选区，Y/H 调高度，Enter 复制，Save building 生成可重复使用的本地计划。这是该工具的已公布操作，不是所有编辑器的通用按键。
+  - question: 编辑器已经完全稳定了吗？
+    answer: 开发者反复把建筑计划和 Building Editor 称为早期 alpha 实验。后续改进不能证明每个设计、地形或导入文件都没有问题。
+---
+
+## 怎样创建计划，并在殖民地找到它？
+
+打开 **Building Editor**，创建设计并保存到本地。[最初的建筑计划公告](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929580)说明，已保存设计会出现在殖民地的 **Buildings** 菜单中。如果本地设计列表为空，先确认是否真正保存过，而不是只留下一个尚未保存的预览。
+
+![原创建筑编辑器与重复使用计划的流程示意图，非游戏画面](/images/articles/building-editor-and-plans.webp)
+
+后来的 0.9.15 在已保存计划旁增加三种起始房屋，并说明可以从游戏进入编辑器，再回到同一世界。Demo 0.9.18 又把 Buildings 与其他 Build 工具整合。这些有日期的变化可以解释旧截图与入口不同，但不能仅凭差异就判断设计已被删除。
+
+## 计划能保存什么，放置后又会发生什么？
+
+开发者公布的编辑工具包括 Single、Line、Plane、Box、高度控制、楼层可见性与 Undo/Redo，计划可包含家具和生产站。[0.9.14.2 更新](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934531)加入带预览、尺寸、床数和方块数的卡片。放下另一个施工项目之前，可以用这些信息辨认想使用的设计。
+
+1. 完成目标设计，保存到本地。
+2. 在 Buildings 找到对应卡片，比较预览与尺寸。
+3. 选择合适位置，不要假定任何地形都能直接适配。
+4. 普通模式下，读取实际项目的研究、材料与安全通路要求。
+5. 观察真正的施工进度及完成状态。出现卡片或放下订单，均不等于房子已经建好。
+
+原公告描述了居民清理现场、准备地形、搭建主体再安装家具的流程。后来的项目反馈会指出具体 blocker。设计存在但工作不推进时，应使用[施工排障](/zh/building/stalled-construction/)；一次材料交付缺失，并不自动要求重画整个设计。
+
+## 导出、Copy Area 和 Clone 有何区别？
+
+可携带的 **.stoneera-building** 文件用于本地设计导出导入。0.9.15 的 **Copy Area** 会在松开后保留所选区域：用 Y/H 调整高度，Enter 复制，**Save building** 保存成可重复使用的本地计划。Demo 0.9.18 另外描述了支持的方块和对象连同设置的克隆。
+
+这些结果要分开理解：导出导入传递设计文件，保存计划让设计可重复使用，克隆设置不等于免费施工，也没有因此确认会搬走原物。若目标是移动或移除已有对象，应看[拆解与搬动的区别](/zh/building/deconstruct-and-move/)。
+
+## 找不到计划或放置后失败，下一步是什么？
+
+从最小状态开始检查：设计是否保存、卡片是否出现、已放置项目是否指出某个 blocker。开发者明确称这些工具为早期 alpha，因此保留设计并记录可复现问题，比把任意缺失计划或复杂地形直接当成必须重置整个殖民地的证据更有用。
+
+来源没有确立通用文件夹路径、完整跨版本导入规则，也没有证明蓝图能绕过试玩研究上限。重要导出文件应保留副本。反馈时写清版本、Normal/Creative、使用的工具，以及问题出在放置项目之前还是之后。
+
+如果具体问题是资源未送达，查看[仓储与搬运](/zh/colonists/storage-filters-and-hauling/)。本文使用截至 Demo 0.9.18 的完整开发者公告，11月6日核对，不声称本站拥有实测房型目录或确认了正式版兼容性。

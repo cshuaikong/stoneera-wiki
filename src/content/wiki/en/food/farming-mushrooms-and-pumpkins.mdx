@@ -1,0 +1,63 @@
+---
+title: "Farming, Mushrooms and Pumpkins: Diagnose the Plot"
+description: "Mark StoneEra farms correctly, separate selection problems from blocked work, and check mushroom, pumpkin, water and winter requirements."
+category: food
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/farming-mushrooms-and-pumpkins.webp
+tags: ["food","demo","survival"]
+gameVersion: Demo 0.9.18
+summary: "Choose the crop before drawing its farm area, then distinguish an unmarked plot from a marked order that nobody can perform. The developer says nearby water is needed except for pumpkins and mushrooms. Check the Farmer, supplies and season next; an old 1×1 selection report is not proof of a current 0.9.18 bug."
+author: StoneEra Wiki Team
+draft: false
+faq:
+  - question: "Why does dragging not create a farm?"
+    answer: "The developer says to choose the crop first, then click and drag the area. Separate a missing plot from an existing plot whose worker or supplies are blocked."
+  - question: "Which crops do not require nearby water?"
+    answer: "The developer’s reply names pumpkins and mushrooms as exceptions. It does not publish an exact radius for other crops or say water can never improve an exception’s yield."
+  - question: "Can I use the old 1×1 selection workaround as a confirmed current fix?"
+    answer: "No. It was an October player report that the developer acknowledged before the 0.9.18 menu redesign. It is a diagnostic clue, not a reproduced current-version bug."
+---
+
+## How do you create a farm order?
+
+Choose the crop first, then click and drag across the intended growing area. That is the [developer’s October 30 answer](https://steamcommunity.com/app/5057770/discussions/0/569301473354282461/#c569301473354304604) to a player who had seeds and a Farmer but could not mark a field. Selecting a crop and creating its area are separate steps; increasing urgency does not replace the missing plot.
+
+![Original reading checkpoints for Crop, Plot, Water and Harvest; not a game screenshot](/images/articles/farming-mushrooms-and-pumpkins.webp)
+
+Crop means the selected plant, Plot the marked area, Water its environmental requirement, and Harvest the eventual result. These independent checks are not a literal game interface or a guarantee that every crop has the same growth schedule.
+
+In the current 0.9.18 interface, Build brings Orders and other construction tools together, and individual farming orders can be inspected or cancelled. The thread used older Commands/Orders wording. Follow the farming tool in your installed interface instead of assuming the old window layout is unchanged.
+
+## Is the problem selection or a worker prerequisite?
+
+First check whether the intended field has actually been marked. If no plot exists, inspect the active crop and drawing-area settings. If an order is marked but nobody works it, inspect the Farmer’s permission, planting supply, usable location and task blocker. These are different stages and need different corrections.
+
+The original player later reported that a previous one-cell tree order left a **1×1 drawing mode** that confused farming selection. Changing the area through another order tool restored their selection. The developer acknowledged the confusing controls on October 30. This is a dated symptom, not confirmation that Demo 0.9.18 still has the same defect; record the current version and a screenshot if the new controls differ.
+
+## Which crops need nearby water?
+
+The developer says crops need nearby water **except pumpkins and mushrooms**. No exact irrigation radius is supplied. Confirm the location’s actual conditions rather than counting an invented number of tiles. [Waterworks and irrigation](/world/waterworks-and-irrigation/) separates this planting requirement from building a channel or unlocking a water mechanism.
+
+| Crop | Dated documented rule |
+| --- | --- |
+| Mushrooms | Version 0.9.15: mature in six game hours. One planting mushroom yields 1–5 on dry soil or 1–10 with irrigation. |
+| Pumpkins | Version 0.9.16.3: new Camp and House starts receive six seeds; growth takes three game days without watering, and harvesting recovers a seed. |
+
+Yield ranges are not a promise of the maximum on every harvest. Fried mushrooms have double their raw food value in the 0.9.15 notes, but a mushroom plot does not replace the need to manage the colony’s whole food reserve.
+
+## What should you check before waiting for a harvest?
+
+Winter pauses crop growth until spring, according to 0.9.16. Rain moistens exposed plots, but it does not make every crop immune to seasons or remove all other planting requirements. Check [the calendar](/world/seasons-and-winter/) before assuming a planted field is broken because it has stopped advancing.
+
+Use a staged success check: the correct area is marked, a permitted worker performs the task, growth advances in a suitable season, and the harvest becomes usable supply. If one stage fails, report that stage with crop, seed stock, task wording, water conditions and build. Do not clear an unrelated area or overwrite a save just to force progress. Finish the plan with [food storage](/food/food-storage-and-spoilage/) and [blocked-work checks](/colonists/professions-and-blocked-work/).
+
+## Which sources and version does this guide use?
+
+Checked November 6, 2026. Current reference: Demo 0.9.18; individual mechanics below retain the dated update that established them. This is a sourced editorial guide, not a claim of hands-on testing.
+
+- [How do I farm? :: StoneEra General Discussions](https://steamcommunity.com/app/5057770/discussions/0/569301473354282461/) — October 30 developer replies; before Demo 0.9.18.
+- [StoneEra Demo 0.9.15 — Life in the Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) (2026-10-12).
+- [StoneEra Demo 0.9.16.3 — Halloween Update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114030237) (2026-10-21).
+- [StoneEra Demo 0.9.16 — Building, Weather & Colony Life](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706689993) (2026-10-19).
+- [StoneEra Demo 0.9.18 — A Fresh Look at Your Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) (2026-11-03).

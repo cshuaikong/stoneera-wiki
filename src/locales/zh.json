@@ -1,0 +1,403 @@
+{
+  "$schema": "../../docs/home.schema.json",
+  "site": {
+    "name": "StoneEra Wiki",
+    "shortName": "StoneEra Wiki",
+    "description": "独立 StoneEra 试玩攻略：种植、食物保存、建筑与居民工作。保留来源时间、适用版本和具体排查步骤。",
+    "tagline": "找到让聚落继续运转的下一步。",
+    "legalNotice": "独立玩家攻略站，与 Arrock Games 无隶属或认可关系。游戏素材权利归相应权利人所有。"
+  },
+  "nav": {
+    "home": "首页",
+    "toggleTheme": "切换主题",
+    "menu": "菜单",
+    "close": "关闭",
+    "search": "搜索",
+    "language": "语言",
+    "start": "入门",
+    "colonists": "居民",
+    "food": "食物",
+    "building": "建造",
+    "world": "世界",
+    "game-info": "游戏信息"
+  },
+  "search": {
+    "placeholder": "搜索 StoneEra 攻略…",
+    "noResults": "没有找到对应攻略",
+    "loadError": "搜索未能加载，请刷新页面后重试。"
+  },
+  "shared": {
+    "lastUpdated": "最近更新",
+    "publishedOn": "发布于",
+    "noArticles": "此栏目暂无已发布攻略。",
+    "defaultListDescription": "查看「{title}」相关攻略，按具体步骤、适用版本和已确认边界解决问题。",
+    "relatedArticles": "相关攻略",
+    "onThisPage": "本页目录",
+    "browseAll": "全部内容",
+    "viewAll": "查看全部",
+    "commentsHeading": "评论",
+    "share": "分享",
+    "copyLink": "复制链接",
+    "copied": "已复制",
+    "consentText": "可选广告可能使用 Cookie 或类似标识。你可以允许或拒绝这些请求，详情见隐私说明。",
+    "accept": "允许",
+    "decline": "拒绝",
+    "consentTitle": "广告偏好",
+    "bossCard": {
+      "title": "首领资料",
+      "hp": "生命",
+      "weakness": "弱点",
+      "resistant": "抗性",
+      "location": "位置",
+      "level": "建议等级"
+    },
+    "codesTable": {
+      "active": "有效兑换码",
+      "expired": "已过期兑换码",
+      "reward": "奖励",
+      "expires": "有效期",
+      "source": "来源",
+      "code": "代码"
+    },
+    "codesFaq": [],
+    "possiblyOutdated": "本攻略核查于",
+    "outdatedNote": "，此后游戏可能已有调整，请结合当前版本阅读。",
+    "prevArticle": "上一篇",
+    "nextArticle": "下一篇",
+    "minuteRead": "分钟阅读",
+    "wasThisHelpful": "这篇内容解决了你的问题吗？",
+    "feedbackThanks": "感谢反馈",
+    "sponsoredLabel": "广告",
+    "visitSite": "访问网站",
+    "recipeCard": {
+      "servings": "份数",
+      "prepTime": "准备时间",
+      "cookTime": "制作时间",
+      "cuisine": "类别",
+      "ingredients": "材料",
+      "tools": "工具"
+    },
+    "relatedVideos": "相关视频",
+    "gallery": "图片",
+    "gameVersion": "适用版本",
+    "allTags": "全部主题",
+    "tagsIndexDescription": "按主题寻找需要的攻略。",
+    "articlesCount": "篇文章",
+    "recentTitle": "新发布与修订",
+    "recentDescription": "按本站文章发布时间与修订时间排序，不是实时游戏补丁推送。",
+    "sponsorTitle": "支持本站",
+    "sponsorText": "如果这些攻略有帮助，可以支持本站继续维护。",
+    "sponsorButton": "支持",
+    "notFoundSearchHint": "可以尝试搜索具体问题。",
+    "notFoundPopular": "实用攻略",
+    "notFoundTitle": "404 — 页面未找到",
+    "notFoundDescription": "没有找到你访问的页面。",
+    "notFoundHeading": "页面未找到",
+    "notFoundText": "地址可能已变更，或页面暂时无法访问。",
+    "notFoundBackHome": "返回首页",
+    "galleryLabels": {
+      "close": "关闭",
+      "prev": "上一张图片",
+      "next": "下一张图片"
+    },
+    "quickAnswer": "直接回答",
+    "skipToContent": "跳至正文",
+    "tapToCopy": "点按复制",
+    "open": "打开",
+    "playVideo": "播放视频",
+    "watchVideo": "观看视频",
+    "gameTrailer": "预告片",
+    "closeAd": "关闭广告",
+    "adLabel": "广告",
+    "codesFaqTitle": "兑换码问题",
+    "faqTitle": "常见问题",
+    "toggleTheme": "切换主题",
+    "themeToggleTitle": "浅色 / 深色 / AMOLED 纯黑",
+    "fallbackNotice": "当前显示英文备用内容",
+    "copyQuickAnswer": "复制直接回答",
+    "feedbackYes": "有帮助",
+    "feedbackNo": "未解决",
+    "breadcrumbAria": "面包屑导航",
+    "wikiNavAria": "百科导航",
+    "paginationAria": "文章翻页",
+    "sitebotAdvertisingDisclosure": "文章页配置了带标识的 Adsterra 广告。广告加载时，浏览器会联系第三方广告服务；对方可能处理 IP 地址、浏览器与设备信息、Cookie 或类似标识，用于投放、统计和反作弊。广告链接有各自的隐私规则，展示广告不代表编辑认可其商品。"
+  },
+  "overview": {
+    "start": {
+      "overviewTitle": "开局与研究",
+      "overviewDescription": "接通 StoneEra 开局生产链，理解当前操作与研究前置，推进至第一块铜锭，而不是只放下未完成的建筑。",
+      "guidanceTitle": "先让一小段链条真正工作",
+      "guidance": "先看开局指南，等伐木和木板确实完成，再继续扩建。物体放置或订单取消对不上时，用操作说明确认当前模式。住所链跑通后，转向研究桌与第一块铜锭。看见科技锁定先核对试玩范围：没有计时上限，不代表完整游戏的后期科技也已开放。",
+      "entryLabel": "阅读新手开局",
+      "entryHref": "/start/beginners-guide/"
+    },
+    "colonists": {
+      "overviewTitle": "居民、职务与仓储",
+      "overviewDescription": "检查居民职业、工作阻塞、永久技能、聚落职务，以及搬运工所需的可达接收仓储，避免只靠重复派工排障。",
+      "guidanceTitle": "先读任务原因，再换人",
+      "guidance": "居民等待时，先核对职业与实际任务的阻塞信息，再考虑技能或聚落职务。若问题是货物没有移动，转到仓储过滤，确认有能接收该物资且居民走得到的目的地。指定职业、职务或过滤规则，不会自动补齐材料、通路和可执行的工作。",
+      "entryLabel": "检查工作阻塞",
+      "entryHref": "/colonists/professions-and-blocked-work/"
+    },
+    "food": {
+      "overviewTitle": "种植与食物保存",
+      "overviewDescription": "正确选择作物与农田，检查近水和冬季条件，并区分库存份数、最老批次年龄与食物最大保存时间。",
+      "guidanceTitle": "分清种出来与保存住",
+      "guidance": "选不出农田或农民不工作时，先查种植流程，核对作物、水源和季节，再判断是否需要报告问题。随后用保存指南区分最大寿命与现有批次剩余时间。入冬前准备适用的保鲜储备；搬动旧食物、拆堆或合堆，不会让它重新变新鲜。",
+      "entryLabel": "查看种植排查",
+      "entryHref": "/food/farming-mushrooms-and-pumpkins/"
+    },
+    "building": {
+      "overviewTitle": "方块、施工与建筑方案",
+      "overviewDescription": "找到 Dirt 材料，检查项目停工，按对象状态拆除或搬移，并复用保存的建筑设计，不混淆取消订单和拆成品。",
+      "guidanceTitle": "按对象状态选择工具",
+      "guidance": "只是补一个地块，可从 Dirt 材料选择器开始。整项工程不动，先读缺项和已运到材料，再决定是否取消。成品墙和家具应查拆除说明，复用设计则看建筑编辑器。预览、待办和完工结构不是同一种对象，执行整片区域操作前要先确定范围。",
+      "entryLabel": "找到 Dirt 材料",
+      "entryHref": "/building/dirt-blocks/"
+    },
+    "world": {
+      "overviewTitle": "水利、季节与冬天",
+      "overviewDescription": "理解游戏日历和冬季作物停长，区分试玩已确认的 W1 水利物件与仍处于开发路线图中的高级机制。",
+      "guidanceTitle": "先看时间，再看真实水流",
+      "guidance": "先用季节指南理解日、月和冬季对聚落安排的影响。处理水道或灌溉时，再核对 Normal 模式的 W1 研究，并观察连接后的水流是否真的到达目标，而非只数建筑预览。本站不虚构统一灌溉半径或完整机器蓝图，也不把未来路线图直接当成试玩可用功能。",
+      "entryLabel": "安排季节准备",
+      "entryHref": "/world/seasons-and-winter/"
+    },
+    "game-info": {
+      "overviewTitle": "试玩范围与版本变化",
+      "overviewDescription": "找到当前试玩，核对十二项科技和不限时长，按官方公告时间理解旧攻略，避免把主游戏计划当成已经发售。",
+      "guidanceTitle": "先核对应用与版本",
+      "guidance": "下载、计时限制和发售状态先看试玩对照；界面或机制变化再看更新记录。开发路线图不保证具体发布日期，旧社区问题也不代表 0.9.18 仍有相同缺陷。确认自己使用的应用、模式和版本之后，再进入对应任务页；没有证据的功能继续保留边界，不用猜测补满。",
+      "entryLabel": "对照试玩与完整游戏",
+      "entryHref": "/game-info/demo-vs-full-game/"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "StoneEra Wiki｜试玩攻略、建筑与居民排障",
+      "description": "独立 StoneEra 试玩攻略：种植、食物保存、建筑与居民工作。保留来源时间、适用版本和具体排查步骤。"
+    },
+    "hero": {
+      "badge": "Demo 0.9.18 · Windows 与 macOS",
+      "title": "让第一座聚落真正运转。",
+      "description": "围绕免费试玩的具体问题：居民不工作、农田种不下、Dirt 找不到，以及如何产出第一块铜锭。主游戏实际发售仍未获确认。",
+      "ctaPrimary": "从新手开局开始",
+      "primaryHref": "/start/beginners-guide/",
+      "ctaSecondary": "核对试玩范围",
+      "secondaryHref": "/game-info/demo-vs-full-game/",
+      "image": "/images/hero.webp",
+      "imageAlt": "StoneEra 官网宣传场景：河边聚落、水车、农田和桥梁；不是本站试玩实测画面。",
+      "videoId": ""
+    },
+    "updates": {
+      "title": "新发布与修订",
+      "description": "本站文章和带日期的修正；游戏版本变化另见官方更新对照。",
+      "href": "/game-info/demo-updates/",
+      "linkLabel": "查看试玩版本变化"
+    },
+    "popular": {
+      "badge": "实用阅读入口",
+      "title": "直接找到需要的答案",
+      "quickLinks": [
+        {
+          "label": "装进箱子仍然腐败的食物",
+          "href": "/food/food-storage-and-spoilage/"
+        },
+        {
+          "label": "研究与第一块铜锭",
+          "href": "/start/research-and-first-copper-bar/"
+        },
+        {
+          "label": "居民技能和聚落职务",
+          "href": "/colonists/perks-and-colony-roles/"
+        },
+        {
+          "label": "仓储过滤与搬运条件",
+          "href": "/colonists/storage-filters-and-hauling/"
+        },
+        {
+          "label": "试玩开放的水利物件",
+          "href": "/world/waterworks-and-irrigation/"
+        },
+        {
+          "label": "保存和复用建筑方案",
+          "href": "/building/building-editor-and-plans/"
+        }
+      ]
+    },
+    "start": {
+      "badge": "选择你当前要解决的问题",
+      "title": "聚落卡在哪一步？",
+      "cards": [
+        {
+          "number": "1",
+          "title": "接通新手开局",
+          "description": "从木材、木板、研究走到完成住所。",
+          "icon": "lucide:tent",
+          "href": "/start/beginners-guide/"
+        },
+        {
+          "number": "2",
+          "title": "找到 Dirt 方块",
+          "description": "从木头图标进入真正的材料选择器。",
+          "icon": "lucide:box",
+          "href": "/building/dirt-blocks/"
+        },
+        {
+          "number": "3",
+          "title": "让种植开始工作",
+          "description": "分清选区、水源与季节三个问题。",
+          "icon": "lucide:sprout",
+          "href": "/food/farming-mushrooms-and-pumpkins/"
+        },
+        {
+          "number": "4",
+          "title": "排查建筑停工",
+          "description": "查看物资、通路和项目进度的真实缺项。",
+          "icon": "lucide:hammer",
+          "href": "/building/stalled-construction/"
+        }
+      ]
+    },
+    "explore": {
+      "title": "按问题浏览攻略",
+      "description": "从具体任务找阅读入口，不用在泛泛功能列表里绕路。",
+      "modules": []
+    },
+    "directoryTitle": "全部 StoneEra 攻略",
+    "directoryDescription": "按实际问题分组列出全部已发布主题；各语言保留相同文章路径。",
+    "faq": {
+      "title": "开始之前",
+      "description": "当前能玩什么、有什么限制，以及本站能提供什么。",
+      "items": [
+        {
+          "question": "试玩可以下载吗，有计时限制吗？",
+          "answer": "可以，Windows 与 macOS 免费试玩已开放，包含十二项早期科技，没有单次计时上限。居民生产出第一块铜锭后可以继续建设。"
+        },
+        {
+          "question": "主游戏已进入 Early Access 了吗？",
+          "answer": "2026 年 11 月 6 日核查时，Steam 主应用仍显示 Coming soon。Demo 0.9.18 可玩，但主游戏实际进入抢先体验尚未得到确认。"
+        },
+        {
+          "question": "本站是 Arrock Games 官方支持或实测百科吗？",
+          "answer": "不是。StoneEra Wiki 是独立玩家攻略站，整理带日期的官方资料与有明确归属的开发者回复。编辑阅读演练不冒充作者进游戏实测，也不代表官方支持。"
+        },
+        {
+          "question": "试玩有水利和全部后期科技吗？",
+          "answer": "0.9.15.1 官方公告明确把 W1 水车、中大型提水轮、木石水道放进试玩：Normal 需研究 W1，Creative 可直接使用这些物件。后期完整游戏科技仍受限，路线图也不代表每项机制已在试玩中完成。"
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "按自己版本，完成眼前的问题。",
+      "description": "检查居民有没有真正完成工作，而不只是放下一个订单。试玩更新较快，阅读时保留来源日期与版本边界。",
+      "primary": "阅读开局指南",
+      "primaryHref": "/start/beginners-guide/",
+      "secondary": "查看版本变化",
+      "secondaryHref": "/game-info/demo-updates/"
+    }
+  },
+  "footer": {
+    "playGame": "游戏官方网站",
+    "officialDiscord": "官方 Discord",
+    "officialYoutube": "官方 YouTube",
+    "officialTwitter": "官方社交账号",
+    "officialReddit": "官方社区",
+    "about": "关于本站",
+    "faq": "常见问题",
+    "privacyPolicy": "隐私说明",
+    "termsOfService": "使用条款",
+    "copyright": "版权说明",
+    "contact": "联系我们",
+    "copyrightText": "© 2026 StoneEra Wiki。原创编辑内容归相应作者所有，游戏素材权利归其权利人所有。",
+    "community": "游戏链接",
+    "legal": "站点信息"
+  },
+  "legal": {
+    "about": {
+      "intro": "StoneEra Wiki 是独立编辑的 StoneEra 玩家指南。游戏由 Arrock Games 开发并发行；本站不是开发商、发行商或官方支持团队。",
+      "sections": [
+        {
+          "heading": "我们整理什么内容",
+          "body": "重点是让读者完成具体下一步：接通营地、找到 Dirt、种下农田、理解食物批次，或查明工作为什么被阻塞。文章以公开官方公告和有明确归属的开发者回复为依据，重新组织成可读步骤，并区分适用版本、旧玩家报告和仍未确认的细节。"
+        },
+        {
+          "heading": "怎样理解证据与检查",
+          "body": "文章发布或网站可访问，不等于某种游戏方法已经实测成功。编辑检查关注读者能否找到答案、条件是否齐全，不冒充作者进游戏测试或真实玩家反馈。Demo 0.9.18 与尚未证实发售的主游戏分开表述，旧资料也可能随更新失效。"
+        },
+        {
+          "heading": "纠错与独立性",
+          "body": "可把文章地址、当前版本和具体问题发至 conact@stoneera.wiki，附带官方来源或可复现例子便于核对。游戏名称、画面等权利仍归相应权利人。广告与资料来源分开，广告接入不会使本站变成官方百科。"
+        }
+      ]
+    },
+    "privacy-policy": {
+      "intro": "本页说明 StoneEra Wiki 已配置功能涉及的数据处理。静态页面仍需通过托管服务传输，也可能加载第三方广告；本站不宣称访问过程完全不涉及数据。",
+      "sections": [
+        {
+          "heading": "托管与页面传输",
+          "body": "站点由 Cloudflare 托管并提供页面传输。加载页面会涉及 IP 地址、请求地址、时间和浏览器等网络信息，托管方可能为传输与安全处理这些数据。阅读攻略不需要注册本站账号；此处不承诺托管方日志的具体保存期限。"
+        },
+        {
+          "heading": "广告与浏览器选择",
+          "body": "文章页配置了 Adsterra 广告。广告加载时，第三方服务可能获取 IP 地址、浏览器及设备信息，并使用 Cookie 或类似标识进行投放、统计和反作弊。本站沿用浏览器同意机制处理可选请求，在本地存储可用时保留你的选择。广告落地网站采用各自的隐私规则。"
+        },
+        {
+          "heading": "主动来信与外部链接",
+          "body": "向 conact@stoneera.wiki 发邮件时，邮件服务会传输发件地址、正文与附件，便于处理对应问题。只发送纠错或权利请求所需信息，不要发送密码、私人存档凭据或账号密钥。官方与广告链接会离开本站。"
+        }
+      ]
+    },
+    "terms-of-service": {
+      "intro": "本条款说明独立 StoneEra Wiki 攻略的使用范围。本站提供信息，不能替你操作游戏、处理游戏账号或购买，也不代替开发者支持。",
+      "sections": [
+        {
+          "heading": "先核对适用版本",
+          "body": "采取行动前，请查看文章时间、应用与模式。试玩和完整游戏开发计划存在不同边界。步骤说明会保留来源与前置条件，不保证持续变化的 alpha 没有缺陷，也不保证每个旧存档表现一致。进行可能破坏建筑或存档的尝试前，应先保留合适备份。"
+        },
+        {
+          "heading": "合理使用内容",
+          "body": "你可以阅读并链接本站攻略。不要把本站冒充为 Arrock Games 服务、提交伪造纠错证据，或通过本站索要他人账号访问权。原创文章属于编辑作品，游戏画面和名称等保留各自权利；转载或权利问题请使用版权与联系页面。"
+        },
+        {
+          "heading": "第三方服务与资料变化",
+          "body": "官方商店、社区和广告由第三方运营。链接或广告展示不保证相关产品、规则或结果。游戏与文章都可能更新，带日期的资料不承诺永久可用或未来发售日期。发现具体页面问题，可联系 conact@stoneera.wiki。"
+        }
+      ]
+    },
+    "copyright": {
+      "intro": "StoneEra 及相关游戏名称、画面、视频等素材的权利归相应权利人所有。StoneEra Wiki 是独立攻略站，不声称拥有 Arrock Games 的游戏素材。",
+      "sections": [
+        {
+          "heading": "原创说明与资料引用",
+          "body": "文章、译文及明确标注的原创示意图属于编辑内容。官方截图或宣传资料保留真实语境，不冒充本站游戏实测画面。来源链接说明证据出处，并不代表所链接或展示的全部作品均获无限制再利用许可。"
+        },
+        {
+          "heading": "申请更正或移除",
+          "body": "请向 conact@stoneera.wiki 提供具体页面与素材地址、你代表的作品、问题描述，以及可核验的权利关系。说明希望更正署名、替换还是移除，确保信息足够定位和审核；不要发送不必要的私人证件。"
+        },
+        {
+          "heading": "署名与处理范围",
+          "body": "本站会按具体材料审阅权利请求，并保留核对所需来源历史。在审核证据前不承诺固定结果或回复时限。若要转载本站原创文字或图示，请说明拟使用范围，不要假设游戏素材与本站编辑内容适用同一种统一许可。"
+        }
+      ]
+    },
+    "contact": {
+      "intro": "文章纠错、资料更新、站点问题与权利请求，请联系独立 StoneEra Wiki 编辑团队：conact@stoneera.wiki。本站与 Arrock Games 分开，不能处理官方游戏账号或购买。",
+      "sections": [
+        {
+          "heading": "怎样提交有用的攻略纠错",
+          "body": "请附上准确文章地址、当前游戏版本、Normal 或 Creative 模式、文中具体说法，以及你实际观察到的结果。带日期的官方来源、简明步骤和相关截图，比笼统说“攻略错了”更便于核验。自己复现的问题与从他人帖子看到的建议，请分开说明。"
+        },
+        {
+          "heading": "站点故障或版权问题",
+          "body": "页面无法使用时，请说明地址、设备或浏览器，以及哪一步失败。图片或其他权利问题，请提供具体素材、你与作品的关系和希望采取的更正方式。不要发送密码、支付资料或私人账号凭据；本站不承诺固定回复时间。"
+        },
+        {
+          "heading": "哪些问题应找官方支持",
+          "body": "游戏崩溃、存档故障、付款和账号问题，应走游戏官方网站或 Steam 提供的官方渠道。本站攻略可以帮助整理版本与复现过程，但此邮箱不是 Arrock Games 技术支持。网站纠错和官方游戏支持是两种不同请求。"
+        }
+      ]
+    }
+  }
+}

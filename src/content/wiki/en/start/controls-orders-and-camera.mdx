@@ -1,0 +1,47 @@
+---
+title: "Controls: Object Rotation, Camera and Individual Orders"
+description: "Separate object rotation from camera controls, cancel the right pending order, clone supported objects and understand resident-view controls in Demo 0.9.18."
+category: "start"
+date: "2026-11-06"
+lastModified: "2026-11-06"
+image: "../../../../assets/covers/controls-orders-and-camera.webp"
+tags: ["controls","demo","building"]
+gameVersion: "Demo 0.9.18"
+summary: "Use R to rotate objects and Q to rotate the colony camera. In Demo 0.9.18, Build brings Orders, Buildings, Blocks and Objects together and supports inspecting and canceling individual jobs. Resident Control and Through Eyes use different controls, so identify your current view before applying a shortcut."
+author: "StoneEra Wiki Team"
+faq: [{"question":"Why does R move the view instead of rotating my object?","answer":"Controls depend on context. The 0.9.17.2 notes assign R to object rotation and Q to the colony camera. In Through Eyes, the older resident-view instructions use R for free look."},{"question":"Can I cancel one mining or farming order?","answer":"Demo 0.9.18 explicitly adds inspection and cancellation of individual construction, mining and farming orders. This is different from deleting a completed wall."},{"question":"Does clone work on every object?","answer":"The official update says supported blocks and objects can be cloned with their settings. It does not promise that every object or building supports cloning."}]
+---
+
+## Which keys rotate the object and the camera?
+
+Use R for object rotation and Q for the colony camera, as clarified in Demo 0.9.17.2. Check your current view before troubleshooting a shortcut. The resident-view instructions assign some of the same keys different purposes, and an active text field can also prevent camera shortcuts from taking effect.
+
+The [0.9.17.2 controls notice](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302237390) is the source for the rotation distinction. This is not a complete keybinding list. If a shortcut appears to do something else, first leave text entry and identify whether you are placing an object, viewing the colony or following a resident.
+
+## Where are building and order controls in 0.9.18?
+
+Open the current Build interface for Orders, Buildings, Blocks and Objects. Demo 0.9.18 brought these groups together and added individual order inspection and cancellation. Use that narrower operation when you want to remove one unfinished task, rather than applying a broad area action to unrelated work.
+
+| You want to change | Match the action to the target |
+| --- | --- |
+| One unfinished construction, mining or farming job | Inspect and cancel the individual order |
+| A finished wall | Use the documented Mining action, not pending-order cancellation |
+| An existing supported block or object | Clone it with its settings when that action is available |
+| A reusable multi-object design | Use a saved Building Editor plan instead of assuming clone captures everything |
+
+The [0.9.18 announcement](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) confirms those abilities but does not document a universal screen coordinate or every supported clone target. See [deconstruction versus cancellation](/building/deconstruct-and-move/) and [saved building plans](/building/building-editor-and-plans/) before applying a destructive action.
+
+
+![Original reference cards for object R, camera Q, order inspection and cancellation; controls depend on the active view.](/images/articles/controls-orders-and-camera.webp)
+
+## How do resident Control and Through Eyes differ?
+
+Control lets you move a resident yourself, while Through Eyes follows a resident who continues acting autonomously. The [0.9.15 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) documents WASD movement and Shift running for Control, after the resident safely hands off work and cargo. Through Eyes is a viewing mode, not the same direct-control state.
+
+For that resident view, the documented shortcuts are R for free look, H for the HUD and Esc to return to the colony camera. Do not transfer the Through Eyes meaning of R into object placement, or interpret entering that view as permission to ignore the resident's work handoff.
+
+## What confirms that you canceled the right thing?
+
+Check that the selected pending job is no longer active, then inspect nearby work to ensure you did not clear a wider area. Canceling a project and removing a finished block solve different problems. The official notes do not promise a specific shortcut for every cancellation or guarantee all already completed materials are refunded.
+
+If the actual issue is no progress rather than an unwanted order, use the [blocked-work checks](/colonists/professions-and-blocked-work/) first. When a control or screen still differs, record your installed demo version and the view/tool you were using; the [update timeline](/game-info/demo-updates/) helps identify instructions that predate the interface refresh.

@@ -1,0 +1,21 @@
+{
+  "name": "StoneEra Wiki",
+  "short_name": "StoneEra Wiki",
+  "description": "Independent StoneEra Demo guides for farming, food storage, building and colonist jobs, with versioned troubleshooting.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d1a25c",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

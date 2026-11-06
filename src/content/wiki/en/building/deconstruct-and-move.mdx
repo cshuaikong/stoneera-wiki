@@ -1,0 +1,62 @@
+---
+title: Remove Walls, Cancel Orders or Move Furniture
+description: Choose the right StoneEra removal action for an unfinished order, finished wall, retained building project or movable furniture, with recovery limits.
+category: building
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/deconstruct-and-move.webp
+tags:
+  - building
+  - demo
+  - controls
+gameVersion: Demo 0.9.18
+summary: Identify what you are changing before searching for a Deconstruct button. The developer says completed walls can be removed with Mining. Individual unfinished orders can be inspected and canceled; retained finished building projects have dismantling support. Furniture and carpenter benches can be moved. Copying an object or plan is a separate operation, not relocation.
+author: StoneEra Wiki Team
+faq:
+  - question: How do I remove a finished wall?
+    answer: The developer’s answer in the Deconstruct discussion says to use the Mining tool. A player later confirmed it worked. That answer should not be expanded into a promise about every object or refund.
+  - question: Is canceling an unfinished order the same action?
+    answer: No. Demo 0.9.18 separately supports inspecting and canceling individual construction orders. Identify the order before canceling it.
+  - question: Can a whole finished building be dismantled?
+    answer: The 0.9.16 notes say finished buildings retained in the project list can be dismantled with material recovery. The notes do not establish a universal recovery percentage or unlimited history of old buildings.
+  - question: Which objects can be moved?
+    answer: The same update explicitly mentions completed furniture and carpenter benches. Do not infer that every placed structure or object has identical movement support.
+  - question: Does Clone move the original object?
+    answer: No relocation follows from the 0.9.18 announcement’s separate ability to clone supported blocks and objects with settings. Treat movement, removal and cloning as distinct intents.
+---
+
+## What are you actually trying to remove?
+
+First identify whether the target is an unfinished order, a completed wall, a finished building still represented in the project list, or a movable furnishing. The sources give different actions for these cases. Searching for one universal Deconstruct button can hide the supported operation that matches the object’s actual state.
+
+![Original removal, cancellation and relocation flow diagram, not a gameplay screenshot](/images/articles/deconstruct-and-move.webp)
+
+The [original wall-removal thread](https://steamcommunity.com/app/5057770/discussions/0/568174304851704793/) began on October 14. A later player asked specifically about walls that were already complete. On October 30 UTC, the developer answered **Mining**, and the player subsequently confirmed that it worked. The recent answer date does not make the original thread a new release announcement.
+
+## Which action matches each state?
+
+Use the narrow action documented for the target, rather than treating cancellation, dismantling and movement as interchangeable. Demo 0.9.18 adds individual order inspection and cancellation; the [0.9.16 notes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706689993) separately describe moving furnishings and dismantling retained finished building projects.
+
+| Target and intent | Documented action |
+| --- | --- |
+| Stop an unfinished construction order | Inspect and cancel that individual order. |
+| Remove a completed wall | Use Mining, according to the developer’s specific reply. |
+| Dismantle a finished building retained in the project list | Use the project’s dismantling support; material recovery is described without a fixed percentage. |
+| Relocate completed furniture or a carpenter bench | Use supported movement rather than assuming the object must be destroyed. |
+| Reuse a design or reproduce supported settings | Use the separate plan/copy or clone workflow. |
+
+The [0.9.15 notes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) say **Clear Area** cancels orders and removes placeables with recoverable resources. That broader description does not invalidate the developer’s more specific Mining answer for finished walls. It also does not establish a full refund for every material.
+
+## What should you verify before and after the change?
+
+Preserve a save before a large alteration and inspect the precise target. A building may include structural blocks, furniture, active orders and temporary access at the same location. If you only want another position for a furnishing, do not assume a large area-removal selection is the same operation as moving that supported object.
+
+Afterward, check the intended result: the chosen order is canceled, the wall is removed, or the furnishing is in its new position. Do not use an unrelated change in the total resource count as proof of a guaranteed refund. The [storage guide](/colonists/storage-filters-and-hauling/) explains why returned materials may still need an accepting, reachable storage destination.
+
+## Why are Copy and Clone different?
+
+Demo 0.9.18 can clone supported blocks and objects together with their settings. Earlier **Copy Area** can preserve a selection and save a reusable plan. Neither description says that selecting a copy moves the original or bypasses all Normal-mode construction requirements. The [Building Editor guide](/building/building-editor-and-plans/) keeps reusable plans and actual building work separate.
+
+If the expected action is unavailable, record the version, mode, target type and whether it is finished. A project waiting on access or supplies belongs in the [stalled construction checks](/building/stalled-construction/). No source here guarantees that every older finished building remains in history or that every object supports the same move command.
+
+This is developer-described demo behavior checked November 6, through the 0.9.18 announcement. It is not a personal demolition test, a guaranteed save-repair method or proof of later full-game behavior.

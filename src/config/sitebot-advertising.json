@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "provider": "adsterra",
+  "domain": "stoneera.wiki",
+  "layout": "social-native-horizontal-shared-rails",
+  "slots": []
+}

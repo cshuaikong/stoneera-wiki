@@ -1,0 +1,403 @@
+{
+  "$schema": "../../docs/home.schema.json",
+  "site": {
+    "name": "StoneEra Wiki",
+    "shortName": "StoneEra Wiki",
+    "description": "Independent StoneEra demo guides for farming, food storage, building and colonist work, with dated sources and practical troubleshooting.",
+    "tagline": "Find the next step for your settlement.",
+    "legalNotice": "Independent fan guide, not affiliated with or endorsed by Arrock Games. Game material belongs to its respective rightsholders."
+  },
+  "nav": {
+    "home": "Home",
+    "toggleTheme": "Change theme",
+    "menu": "Menu",
+    "close": "Close",
+    "search": "Search",
+    "language": "Language",
+    "start": "Start Here",
+    "colonists": "Colonists",
+    "food": "Food",
+    "building": "Building",
+    "world": "World",
+    "game-info": "Game Info"
+  },
+  "search": {
+    "placeholder": "Search StoneEra guides…",
+    "noResults": "No matching guide found",
+    "loadError": "Search could not load. Refresh the page and try again."
+  },
+  "shared": {
+    "lastUpdated": "Last updated",
+    "publishedOn": "Published",
+    "noArticles": "No published guide in this section yet.",
+    "defaultListDescription": "Browse {title} guides with practical steps, version context and documented limits.",
+    "relatedArticles": "Related Articles",
+    "onThisPage": "On this page",
+    "browseAll": "Browse all",
+    "viewAll": "View all",
+    "commentsHeading": "Comments",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "copied": "Copied!",
+    "consentText": "Optional advertising can use cookies or similar identifiers. Choose whether to allow these requests; see the privacy policy for details.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "consentTitle": "Advertising preferences",
+    "bossCard": {
+      "title": "Boss Overview",
+      "hp": "HP",
+      "weakness": "Weakness",
+      "resistant": "Resistant",
+      "location": "Location",
+      "level": "Rec. Level"
+    },
+    "codesTable": {
+      "active": "Active Codes",
+      "expired": "Expired Codes",
+      "reward": "Reward",
+      "expires": "Expires",
+      "source": "Source",
+      "code": "Code"
+    },
+    "codesFaq": [],
+    "possiblyOutdated": "This guide was last checked on",
+    "outdatedNote": "— the game may have changed since. Some details could be out of date.",
+    "prevArticle": "Previous",
+    "nextArticle": "Next",
+    "minuteRead": "min read",
+    "wasThisHelpful": "Was this helpful?",
+    "feedbackThanks": "Thanks for the feedback!",
+    "sponsoredLabel": "Sponsored",
+    "visitSite": "Visit site",
+    "recipeCard": {
+      "servings": "Servings",
+      "prepTime": "Prep",
+      "cookTime": "Cook",
+      "cuisine": "Cuisine",
+      "ingredients": "Ingredients",
+      "tools": "Tools"
+    },
+    "relatedVideos": "Related videos",
+    "gallery": "Gallery",
+    "gameVersion": "Game version",
+    "allTags": "All Tags",
+    "tagsIndexDescription": "Browse all articles by topic.",
+    "articlesCount": "articles",
+    "recentTitle": "New and revised guides",
+    "recentDescription": "Recently published or revised editorial guides, not a live game patch feed.",
+    "sponsorTitle": "Support this wiki",
+    "sponsorText": "If these guides helped you, consider supporting the site.",
+    "sponsorButton": "Support us",
+    "notFoundSearchHint": "Try searching the wiki instead.",
+    "notFoundPopular": "Popular pages",
+    "notFoundTitle": "404 - Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "notFoundHeading": "Page Not Found",
+    "notFoundText": "The page you are looking for might have been removed or is temporarily unavailable.",
+    "notFoundBackHome": "Back to home",
+    "galleryLabels": {
+      "close": "Close",
+      "prev": "Previous image",
+      "next": "Next image"
+    },
+    "quickAnswer": "Quick Answer",
+    "skipToContent": "Skip to content",
+    "tapToCopy": "Tap to copy",
+    "open": "Open",
+    "playVideo": "Play video",
+    "watchVideo": "Watch video",
+    "gameTrailer": "trailer",
+    "closeAd": "Close ad",
+    "adLabel": "Advertisement",
+    "codesFaqTitle": "Questions about codes",
+    "faqTitle": "FAQ",
+    "toggleTheme": "Toggle theme",
+    "themeToggleTitle": "Light / Dark / AMOLED black",
+    "fallbackNotice": "English fallback",
+    "copyQuickAnswer": "Copy quick answer",
+    "feedbackYes": "Yes",
+    "feedbackNo": "No",
+    "breadcrumbAria": "Breadcrumb",
+    "wikiNavAria": "Wiki navigation",
+    "paginationAria": "Article pagination",
+    "sitebotAdvertisingDisclosure": "Article pages are configured for labeled Adsterra advertising. When ads load, the browser contacts third-party advertising services, which may process IP address, browser and device information, cookies or similar identifiers for delivery, measurement and fraud prevention. Advertising links have their own privacy practices; an advertisement is not an editorial endorsement."
+  },
+  "overview": {
+    "start": {
+      "overviewTitle": "First Camp and Research",
+      "overviewDescription": "Start a working StoneEra settlement, understand the current controls and progress toward the first copper bar without skipping research prerequisites.",
+      "guidanceTitle": "Build one working chain first",
+      "guidance": "Begin with the camp guide and wait for completed woodcutting and planks before expanding. Use the controls reference if object placement or order cancellation is confusing. Once the shelter chain works, move to the research table and first copper bar. Check the demo comparison before interpreting a locked node as a bug: the session is untimed, but later technologies remain outside the demo.",
+      "entryLabel": "Open the beginner guide",
+      "entryHref": "/start/beginners-guide/"
+    },
+    "colonists": {
+      "overviewTitle": "Residents, Roles and Storage",
+      "overviewDescription": "Check resident professions, work blockers, permanent perks, colony roles and the reachable storage destinations needed by haulers.",
+      "guidanceTitle": "Diagnose the job before changing the worker",
+      "guidance": "Start with professions and the actual task blocker when a resident waits. Then compare perk and colony-role conditions before making a permanent choice. If the problem is cargo rather than willingness to work, read the storage-filter guide and check for a reachable destination accepting that material. A profession assignment, role or filter does not remove the need for supplies, usable access and a ready task.",
+      "entryLabel": "Check blocked work",
+      "entryHref": "/colonists/professions-and-blocked-work/"
+    },
+    "food": {
+      "overviewTitle": "Farming and Food Storage",
+      "overviewDescription": "Mark useful farms, check water and winter conditions, and preserve food without confusing stack size with remaining shelf life.",
+      "guidanceTitle": "Separate growing food from keeping it",
+      "guidance": "Use the farming guide when an area is not marked or a Farmer does not begin. Check crop selection, water needs and the season before treating the issue as a bug. Then read food storage to distinguish a food’s maximum lifetime from the age of its oldest batch. Prepare suitable preserved reserves before winter; moving or combining an old stack does not make it fresh again.",
+      "entryLabel": "Open the farming guide",
+      "entryHref": "/food/farming-mushrooms-and-pumpkins/"
+    },
+    "building": {
+      "overviewTitle": "Blocks, Construction and Plans",
+      "overviewDescription": "Select Dirt, inspect stalled projects, remove the correct finished object and reuse saved plans without mixing up cancellation and demolition.",
+      "guidanceTitle": "Match the tool to the object",
+      "guidance": "For a simple missing block, begin with the Dirt material-picker instructions. If a larger project has stopped, inspect its listed blocker and delivered materials before canceling it. Use the deconstruction guide for completed walls or furniture, and the Building Editor guide for reusable designs. Plans, pending orders and finished structures are different states; check the intended target before using a broad area action.",
+      "entryLabel": "Find Dirt in the material list",
+      "entryHref": "/building/dirt-blocks/"
+    },
+    "world": {
+      "overviewTitle": "Water, Seasons and Winter",
+      "overviewDescription": "Understand seasonal timing, winter crop pauses and the documented W1 waterworks available within the StoneEra demo.",
+      "guidanceTitle": "Check the calendar, then follow the water",
+      "guidance": "Read the seasons guide to understand how days, months and winter change your planning. For channels or irrigation, move to Waterworks and check the W1 requirement in Normal mode. Look for water actually flowing through connected pieces rather than counting previews. The guides do not establish a universal irrigation radius or complete mechanical blueprint, and future roadmap systems are kept separate from concrete demo additions.",
+      "entryLabel": "Plan for the seasons",
+      "entryHref": "/world/seasons-and-winter/"
+    },
+    "game-info": {
+      "overviewTitle": "Demo Limits and Game Updates",
+      "overviewDescription": "Find the current demo, separate its twelve technologies from full-game plans, and date older advice against official patch announcements.",
+      "guidanceTitle": "Verify the app and version first",
+      "guidance": "Start with the demo comparison if you need the download, session limit or current release status. Then use the update timeline to identify which announcement changed a menu or mechanic. A development roadmap is not a release guarantee, and an old community problem is not proof of the same bug in 0.9.18. Follow the linked task guide once you know which version applies.",
+      "entryLabel": "Compare demo and full game",
+      "entryHref": "/game-info/demo-vs-full-game/"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "StoneEra Wiki | Demo Guides, Building and Colony Help",
+      "description": "Independent StoneEra demo guides for farming, food storage, building and colonist work, with dated sources and practical troubleshooting."
+    },
+    "hero": {
+      "badge": "Demo 0.9.18 · Windows and macOS",
+      "title": "Make your first settlement work.",
+      "description": "Practical StoneEra guides for the free demo: fix a blocked job, grow food, build with Dirt and reach your first copper bar. Main-game release remains unverified.",
+      "ctaPrimary": "Start with your first camp",
+      "primaryHref": "/start/beginners-guide/",
+      "ctaSecondary": "Check demo limits",
+      "secondaryHref": "/game-info/demo-vs-full-game/",
+      "image": "/images/hero.webp",
+      "imageAlt": "Official StoneEra promotional settlement scene with a river, waterwheel, fields and bridges; not our demo gameplay capture.",
+      "videoId": ""
+    },
+    "updates": {
+      "title": "New and revised guides",
+      "description": "Published editorial guides and dated corrections. See the update reference for official game versions.",
+      "href": "/game-info/demo-updates/",
+      "linkLabel": "Read the demo update reference"
+    },
+    "popular": {
+      "badge": "Useful starting points",
+      "title": "Find the answer you need",
+      "quickLinks": [
+        {
+          "label": "Food spoils despite crates",
+          "href": "/food/food-storage-and-spoilage/"
+        },
+        {
+          "label": "Research and first copper bar",
+          "href": "/start/research-and-first-copper-bar/"
+        },
+        {
+          "label": "Resident perks and colony roles",
+          "href": "/colonists/perks-and-colony-roles/"
+        },
+        {
+          "label": "Storage filters and hauling",
+          "href": "/colonists/storage-filters-and-hauling/"
+        },
+        {
+          "label": "Waterworks in the demo",
+          "href": "/world/waterworks-and-irrigation/"
+        },
+        {
+          "label": "Save and reuse a building plan",
+          "href": "/building/building-editor-and-plans/"
+        }
+      ]
+    },
+    "start": {
+      "badge": "Choose your current task",
+      "title": "Where is your settlement stuck?",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Build the first camp",
+          "description": "Wood, planks, research and a completed shelter.",
+          "icon": "lucide:tent",
+          "href": "/start/beginners-guide/"
+        },
+        {
+          "number": "2",
+          "title": "Find Dirt blocks",
+          "description": "Open the material picker behind the wooden block tile.",
+          "icon": "lucide:box",
+          "href": "/building/dirt-blocks/"
+        },
+        {
+          "number": "3",
+          "title": "Make farming work",
+          "description": "Separate selection, water and seasonal problems.",
+          "icon": "lucide:sprout",
+          "href": "/food/farming-mushrooms-and-pumpkins/"
+        },
+        {
+          "number": "4",
+          "title": "Unblock construction",
+          "description": "Read missing supplies, access and progress states.",
+          "icon": "lucide:hammer",
+          "href": "/building/stalled-construction/"
+        }
+      ]
+    },
+    "explore": {
+      "title": "Explore the guide topics",
+      "description": "Choose a practical question rather than a generic feature list.",
+      "modules": []
+    },
+    "directoryTitle": "All StoneEra guides",
+    "directoryDescription": "Every published topic, grouped by the problem it helps solve. Translations keep the same page paths.",
+    "faq": {
+      "title": "Before you start",
+      "description": "Current availability, content limits and the scope of this independent guide.",
+      "items": [
+        {
+          "question": "Can I play the demo, and is it timed?",
+          "answer": "Yes. The Windows and macOS demo is available. It includes twelve early technologies, has no session timer and lets you continue building after your first resident-produced copper bar."
+        },
+        {
+          "question": "Has the full game entered Early Access?",
+          "answer": "The main Steam app still showed Coming soon when checked on November 6, 2026. Demo 0.9.18 is available, but a completed main-game Early Access launch was not verified."
+        },
+        {
+          "question": "Is this Arrock Games support or a playtested official wiki?",
+          "answer": "No. StoneEra Wiki is an independent fan guide. We organize dated official sources and clearly attributed developer replies; an editorial walkthrough is not a claim of personal gameplay testing."
+        },
+        {
+          "question": "Are Waterworks and all later technologies in the demo?",
+          "answer": "The official 0.9.15.1 notes put W1 waterwheels, medium and large norias and wooden or stone channels in the demo. Normal requires W1 research; Creative can use those items immediately. Later full-game technologies remain locked; a roadmap entry is not a complete demo feature promise."
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "Use the guide that matches your version.",
+      "description": "Start with the actual task and verify completion, not just a placed order. The demo changes quickly; keep the source date and version in view.",
+      "primary": "Start the beginner guide",
+      "primaryHref": "/start/beginners-guide/",
+      "secondary": "Read version changes",
+      "secondaryHref": "/game-info/demo-updates/"
+    }
+  },
+  "footer": {
+    "playGame": "Official game site",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Official YouTube",
+    "officialTwitter": "Official social account",
+    "officialReddit": "Official community",
+    "about": "About this wiki",
+    "faq": "Questions",
+    "privacyPolicy": "Privacy",
+    "termsOfService": "Terms of use",
+    "copyright": "Copyright",
+    "contact": "Contact",
+    "copyrightText": "© 2026 StoneEra Wiki. Original editorial content belongs to its respective authors; game material remains with its rightsholders.",
+    "community": "Game links",
+    "legal": "About this site"
+  },
+  "legal": {
+    "about": {
+      "intro": "StoneEra Wiki is an independent editorial guide to StoneEra, the game developed and published by Arrock Games. We are not the developer, publisher or official support team.",
+      "sections": [
+        {
+          "heading": "What these guides cover",
+          "body": "Our focus is a concrete next action: establishing the first camp, choosing Dirt, starting a farm, understanding food batches or diagnosing a blocked job. We organize public official announcements and attributed developer replies into original explanations. Advice identifies the demo version and separates documented behavior, older reports and remaining unknowns."
+        },
+        {
+          "heading": "How evidence and testing are described",
+          "body": "Publication and a working website do not prove a gameplay method. Editorial checks review whether a visitor can find an answer and follow its documented conditions; they are not claimed as personal game testing or independent player feedback. Demo 0.9.18 and the unreleased main game are kept distinct, and dated information may change after a patch."
+        },
+        {
+          "heading": "Corrections and independence",
+          "body": "Send a page URL, your installed version and the specific correction to conact@stoneera.wiki. An official source or reproducible example helps us check it. Game names, artwork and other game material remain with their respective rightsholders. Advertising is separate from the editorial sources and does not make this an official wiki."
+        }
+      ]
+    },
+    "privacy-policy": {
+      "intro": "This page describes the data-related features configured for StoneEra Wiki. A static page is still delivered through hosting and may include third-party advertising; we do not claim that a visit involves no data processing.",
+      "sections": [
+        {
+          "heading": "Hosting and basic delivery",
+          "body": "Cloudflare hosts and delivers the site. Loading a page involves network information such as IP address, requested address, time and browser details, which hosting services may handle for delivery and security. Reading a guide does not require a wiki account. This statement does not promise a particular provider log-retention period."
+        },
+        {
+          "heading": "Advertising and browser choices",
+          "body": "Article pages are configured for Adsterra advertising. When an advertising unit loads, third-party services may receive IP address, browser and device details and use cookies or similar identifiers for delivery, measurement and fraud prevention. The site uses its browser consent mechanism for optional requests and stores the choice locally where storage is available. Advertising destinations apply their own privacy practices."
+        },
+        {
+          "heading": "Messages and links",
+          "body": "If you email conact@stoneera.wiki, your email provider transmits your address, message and any attachments so the inquiry can be reviewed. Send only details needed for a correction or rights request; do not send passwords or private save/account credentials. External official and advertising links leave this site."
+        }
+      ]
+    },
+    "terms-of-service": {
+      "intro": "These terms explain how to use the independent guides on StoneEra Wiki. The site is an information resource and cannot operate your game, account, purchases or developer support request.",
+      "sections": [
+        {
+          "heading": "Use the right version",
+          "body": "Check the article date, app and mode before acting. The demo and the full-game development roadmap have different limits. Instructions describe their sources and prerequisites; they do not guarantee that a changing alpha build has no bugs or that every saved world behaves identically. Keep a suitable backup before experimenting with destructive changes."
+        },
+        {
+          "heading": "Responsible use of content",
+          "body": "You may read and link to our guides. Do not present the site as an Arrock Games service, submit fabricated correction evidence or use site contact channels to seek account access. Original articles are editorial work; game screenshots, names and other material keep their respective rights. For republication or rights concerns, use the contact and copyright pages."
+        },
+        {
+          "heading": "External services and changes",
+          "body": "Official stores, community services and advertisements are operated by third parties. A link or displayed advertisement is not a guarantee of its products, policies or results. The game and these guides may change; dated advice is not a promise of permanent availability or a future release date. Contact conact@stoneera.wiki about a specific page problem."
+        }
+      ]
+    },
+    "copyright": {
+      "intro": "StoneEra and associated game names, artwork, footage and other game material belong to their respective rightsholders. StoneEra Wiki is an independent guide and does not claim ownership of Arrock Games material.",
+      "sections": [
+        {
+          "heading": "Original explanation and source material",
+          "body": "The written guides, translations and clearly labeled original diagrams are editorial work. Official screenshots or promotional material are used with their actual context and are not described as our gameplay captures. A source citation identifies evidence; it is not a claim that every linked or illustrated work is licensed for unlimited reuse."
+        },
+        {
+          "heading": "Request a correction or removal",
+          "body": "Email conact@stoneera.wiki with the exact page and asset address, the work you represent, a description of the issue and a way to verify your authority. Explain whether you request credit correction, replacement or removal. Provide enough information to locate and review the material without including unnecessary personal documents."
+        },
+        {
+          "heading": "Attribution and review",
+          "body": "We review specific rights concerns and preserve enough source history to check the request. We do not promise an outcome or response deadline before reviewing the evidence. If you want to republish our original text or diagrams, ask about the intended scope instead of assuming the game material and editorial material share one license."
+        }
+      ]
+    },
+    "contact": {
+      "intro": "Contact the independent StoneEra Wiki editorial team at conact@stoneera.wiki for corrections, source updates and site or rights inquiries. We are separate from Arrock Games and cannot resolve official game accounts or purchases.",
+      "sections": [
+        {
+          "heading": "Help us check a gameplay correction",
+          "body": "Include the exact article URL, installed game version, Normal or Creative mode, what the page says and what you observed instead. A dated official source, concise steps and a relevant screenshot are more useful than a general report that a guide is wrong. Distinguish a problem you reproduced from a workaround seen in someone else’s post."
+        },
+        {
+          "heading": "Report a site or copyright problem",
+          "body": "For a broken page, tell us the address, device or browser and the action that failed. For an image or rights concern, identify the exact asset, your relationship to the work and the requested correction. Do not send passwords, payment details or private account credentials. We do not promise a fixed reply time."
+        },
+        {
+          "heading": "Use official support for game issues",
+          "body": "Crashes, save problems, payment issues and account matters should go to the official channels linked from the game website or Steam. Our guides may help you prepare a versioned, reproducible report, but this email is not Arrock Games technical support. Website corrections and official game support are different requests."
+        }
+      ]
+    }
+  }
+}

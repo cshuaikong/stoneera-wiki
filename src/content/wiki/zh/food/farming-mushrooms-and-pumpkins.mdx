@@ -1,0 +1,63 @@
+---
+title: "种田、蘑菇与南瓜：先判断农田卡在哪一步"
+description: "在 StoneEra 中先选作物再标田，区分画区失败与农民停工，核对水源、蘑菇和南瓜的有版本规则，以及冬季暂停生长。"
+category: food
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/farming-mushrooms-and-pumpkins.webp
+tags: ["food","demo","survival"]
+gameVersion: Demo 0.9.18
+summary: "先选择作物，再拖出种植区域；没有标出田地，与田已标出但无人执行，是两种问题。开发者说明，除南瓜和蘑菇外的作物需要附近有水。接着检查 Farmer、种植供应和季节，不能把旧帖中的1×1画区症状直接认定为0.9.18仍存在的错误。"
+author: StoneEra Wiki Team
+draft: false
+faq:
+  - question: "拖动为什么没有生成农田？"
+    answer: "开发者要求先选择作物，再点击并拖出区域。应区分根本没有标记农田，与已有农田但居民或供应受阻。"
+  - question: "哪些作物不需要附近有水？"
+    answer: "开发者明确列出南瓜和蘑菇，但没有公布其他作物的精确水距；例外也不表示水绝不影响产量。"
+  - question: "旧的 1×1 选择处理办法是当前版本确认修复吗？"
+    answer: "不是。它是十月玩家报告，开发者在 0.9.18 改版前承认过界面困惑；只能作为排查线索，不能当本版已复现缺陷。"
+---
+
+## 怎样创建农田命令？
+
+先选择准备种的作物，再点击拖动，划出目标区域。这是开发者在[10月30日回复](https://steamcommunity.com/app/5057770/discussions/0/569301473354282461/#c569301473354304604)中给已有种子和 Farmer、却无法标田的玩家的说明。选作物和创建区域是两步，提高紧急程度不能代替尚未创建的田地。
+
+![原创 Crop、Plot、Water、Harvest 阅读检查卡，不是实机图](/images/articles/farming-mushrooms-and-pumpkins.webp)
+
+Crop 指作物选择，Plot 指已标记区域，Water 指水源条件，Harvest 指最终收获。这是独立检查点，不是游戏界面复刻，也不代表所有作物共用相同生长时间。
+
+0.9.18 的 Build 菜单把 Orders 等工具整合到一起，并允许检查、取消单个种植命令。旧帖使用的是较早的 Commands/Orders 表述，应在当前版本中找种植工具，不必要求窗口布局与旧截图完全一样。
+
+## 是没有标出田，还是农民不执行？
+
+首先看预期区域是否真的形成了种植标记。没有田地时，检查当前作物和画区模式；命令已经标出却无人动工时，再查 Farmer 许可、种植材料、地点与任务阻塞说明。两种阶段不能用同一种办法处理。
+
+原提问者后来发现，之前只砍一棵树的命令留下了 **1×1 画区模式**，使农田选择看起来不正常。通过另一种命令修改区域大小后，他恢复了选田；开发者在10月30日承认界面容易引起误解。这是旧版本症状，不能当作 Demo 0.9.18 仍有同一错误的证明。新界面不同或仍无法标记时，应提交版本和截图。
+
+## 哪些作物需要附近有水？
+
+开发者明确说，**南瓜和蘑菇以外的作物需要附近有水**，没有给出精确灌溉半径。因此要检查实际位置条件，不能自行规定几格范围。[水利与灌溉](/zh/world/waterworks-and-irrigation/)会把种植的近水要求、修建渠道和研究水利机械分开解释。
+
+| 作物 | 有版本范围的已公布规则 |
+| --- | --- |
+| 蘑菇 | 0.9.15：六个游戏小时成熟；一个种植用蘑菇在干地收获1–5个，有灌溉时1–10个。 |
+| 南瓜 | 0.9.16.3：新建 Camp、House 开局获得六颗种子，不浇水也可在三个游戏日长成，收获时回收种子。 |
+
+产量区间不等于每次都能收最大值。0.9.15 还说明煎蘑菇会让食物价值翻倍，但一块蘑菇田并不能替代整个村庄的粮食规划。
+
+## 等收获之前还要检查什么？
+
+0.9.16 说明，冬季作物暂停生长，春季才继续。雨水能湿润露天农田，却不会让所有作物无视季节或免去其他条件。已经种下却不再推进时，先看[日历与冬季](/zh/world/seasons-and-winter/)，不要直接判定农田坏了。
+
+分阶段确认结果：正确区域被标出、获准的居民完成种植、适合的季节里生长推进，最后收获成为可用供应。某步失败时，记录具体阶段、作物、种子储量、任务提示、水源条件和版本。不要为强行推进而清除无关区域或覆盖存档；接着可检查[食物储存](/zh/food/food-storage-and-spoilage/)与[工作阻塞](/zh/colonists/professions-and-blocked-work/)。
+
+## 本页依据哪些来源与版本？
+
+资料核对于 2026 年 11 月 6 日。当前参考 Demo 0.9.18；各项机制保留建立该规则的版本与日期。本页是来源核查后的编辑指南，不声称本站已进行实机测试。
+
+- [How do I farm? :: StoneEra General Discussions](https://steamcommunity.com/app/5057770/discussions/0/569301473354282461/) — October 30 developer replies; before Demo 0.9.18.
+- [StoneEra Demo 0.9.15 — Life in the Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) (2026-10-12).
+- [StoneEra Demo 0.9.16.3 — Halloween Update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114030237) (2026-10-21).
+- [StoneEra Demo 0.9.16 — Building, Weather & Colony Life](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706689993) (2026-10-19).
+- [StoneEra Demo 0.9.18 — A Fresh Look at Your Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) (2026-11-03).

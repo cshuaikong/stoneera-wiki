@@ -1,0 +1,62 @@
+---
+title: Construction Stuck? Read the Blocker Before Adding Workers
+description: Diagnose StoneEra building delays using project blockers, material states, safe access and scaffold order instead of assuming every idle builder is a bug.
+category: building
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/stalled-construction.webp
+tags:
+  - building
+  - demo
+  - controls
+gameVersion: Demo 0.9.18
+summary: Open the stalled building project and read its blocker before adding more workers. The demo separates missing materials, tools, research, storage, occupied or unsupported space, flooding and safe access. Compare free stock with delivered and incoming supplies. A finish estimate disappearing during a blockage is not proof that the project was lost.
+author: StoneEra Wiki Team
+faq:
+  - question: Why can total stock differ from material available to a project?
+    answer: Project details distinguish requirements, installed, delivered and incoming materials, free stock and missing quantities. A total alone does not identify which of those states applies.
+  - question: Is a missing finish estimate a bug?
+    answer: Not necessarily. The developer says the estimate appears after steady progress and becomes unavailable while work is blocked or unattended. Read the blocker and active-worker information.
+  - question: Do temporary work decks require extra planks?
+    answer: The 0.9.17.1 notes distinguish resident-built stair scaffolds from surrounding automatically generated work decks. Those auxiliary decks require no extra planks or builder jobs and give no free salvage.
+  - question: Will Urgent Area fix an inaccessible project?
+    answer: The 0.9.15 notes describe urgency as prioritizing ready work. They do not say it removes material, research or access prerequisites.
+  - question: Should I remove scaffolds to unstick a worker?
+    answer: No universal manual-scaffold repair is documented here. The developer describes workers descending before temporary access is dismantled. Preserve the state and report an unresolved access problem rather than improvising a destructive fix.
+---
+
+## What should you inspect first?
+
+Open the affected building project and read the reported blocker. In the [0.9.17 building update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041488), project details identify missing supplies or tools, research, storage, occupied or unsupported space, flooding and safe access. Adding another Builder cannot be assumed to satisfy a different unmet prerequisite.
+
+![Original construction-blocker and material-state flow diagram, not a gameplay screenshot](/images/articles/stalled-construction.webp)
+
+The same update adds a clickable project queue and separates overall progress from active workers. An estimated finish time appears after steady progress, then disappears while work is blocked or unattended. Read those indicators together: an absent estimate alone does not mean that the save or project has vanished.
+
+## Why can supplies exist without reaching this project?
+
+Read the material rows by state, not as one combined stock number. The developer distinguishes total requirements, materials already installed, deliveries on site, incoming supplies, free stock and missing quantities. Planned temporary scaffolds and lifts are included as reusable materials. That accounting matters when several projects or deliveries are competing for the same visible resources.
+
+| Reported condition | Targeted check |
+| --- | --- |
+| Materials are missing | Identify the specific missing row; distinguish free stock from installed or incoming supplies. |
+| Storage is blocking work | Check an accepting, accessible destination in the [hauling guide](/colonists/storage-filters-and-hauling/). |
+| Research is required | Inspect the named technology rather than assuming every saved plan is immediately buildable. |
+| The target is occupied, unsupported or flooded | Inspect the location the project identifies before adding another overlapping order. |
+| Safe access is unavailable | Check room beside the site and the temporary access sequence. |
+
+These checks are an editorial order for reading the existing feedback, not a promise that each blocker has one identical repair. For a simple material-selection problem, the [Dirt block guide](/building/dirt-blocks/) addresses the earlier step of creating the correct order.
+
+## How do scaffolds and furniture affect the sequence?
+
+The [0.9.17.1 notes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046071) say residents build stair scaffolds while surrounding work decks appear automatically. After the structure is complete, residents descend and remove temporary access before installing windows and furniture. Furniture waiting during that phase is not, by itself, proof of a separate crafting failure.
+
+Earlier Building Editor notes recommend leaving clear ground beside a building for temporary access. Later notes describe supports adapting to uneven terrain, projecting roofs and resumed projects. These are described improvements, not proof that every difficult site is recoverable. Do not mine away an occupied access structure based on a guessed universal workaround.
+
+## What can you change, and when should you report it?
+
+Project controls can pause, resume and prioritize work; Demo 0.9.18 also lets you inspect and cancel individual construction orders. Identify the intended order before using a control. The earlier **Urgent Area** description prioritizes ready work, so urgency should not be treated as a substitute for missing materials, research or a permitted path.
+
+After a targeted change, look for the blocker to clear, supplies to progress through their delivery states and work to advance. If the same state persists, keep the save and report the version, mode, project and blocker, plus a screenshot. The [building-plan guide](/building/building-editor-and-plans/) helps separate a reusable design from an actual buildable, supplied project.
+
+This page uses dated developer demo notes through 0.9.18, checked November 6. We have not benchmarked build time, tested every site or established a guaranteed recovery command.

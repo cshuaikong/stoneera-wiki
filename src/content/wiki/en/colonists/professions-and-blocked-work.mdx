@@ -1,0 +1,64 @@
+---
+title: "Professions and Blocked Work: Get Residents Working"
+description: "Find why StoneEra residents are idle: inspect Work permissions, read the actual task blocker and check tools, materials, storage and access."
+category: colonists
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/professions-and-blocked-work.webp
+tags: ["colonists","demo","work"]
+gameVersion: Demo 0.9.18
+summary: "Start with the resident’s Work permissions and the task’s stated blocker, not another identical order. Missing tools, materials, accepting storage or safe access can prevent work. Demo 0.9.18 exposes jobs and priorities more clearly; a successful fix is the original task progressing after its prerequisite is supplied."
+author: StoneEra Wiki Team
+draft: false
+faq:
+  - question: "Which panel should I check first when a villager is idle?"
+    answer: "Check Work for the resident’s job, permissions and priorities, then read the selected task’s exact blocker. Repeated reassignment does not supply a missing tool or route."
+  - question: "Can residents work without tools?"
+    answer: "The 0.9.15 notes allow basic gathering, construction, planting and carpentry by hand at half speed. Ore mining still needs a pickaxe; this does not exempt all advanced work from tools."
+  - question: "Does Urgent Area fix blocked work?"
+    answer: "No. It prioritizes ready work. Missing materials, access and other stated requirements must be resolved before the original task can progress."
+---
+
+## Where should you look when nobody starts the job?
+
+Open **Work** and compare the resident’s job, permissions and priority with the task you actually want completed. Then inspect the task itself. The [0.9.18 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) reorganizes this screen; it does not make every queued action automatically ready. A new copy of an impossible order leaves the original prerequisite unresolved.
+
+![Original reading checkpoints for Work, Blocker, Supply and Resume; not a game screenshot](/images/articles/professions-and-blocked-work.webp)
+
+These are reading checkpoints, not game-interface buttons or an unlock formula. Work means the resident assignment; Blocker is the stated obstacle; Supply is the missing prerequisite; Resume means checking that the original work progresses.
+
+The official game description lists fourteen professions: Builder, Miner, Woodcutter, Farmer, Carpenter, Stone Mason, Blacksmith, Tailor, Cook, Brewer, Engineer, Herbalist, Hunter and Fisher. That is a role list, not a verified chart of every unlock or an instruction to assign all fourteen immediately.
+
+## How do you turn a blocked order into useful work?
+
+Use the Task List’s explanation before adjusting priorities. The [0.9.15 work changes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) describe residents arranging tools, materials, storage and permitted access before returning to the original job. Check the complete path from an available worker to a ready target, rather than treating an idle portrait as proof of a bug.
+
+1. Confirm a resident is permitted to perform the required work.
+2. Read the selected task’s blocker and identify the relevant location.
+3. Check the required material or tool, not merely another item with a similar name.
+4. Inspect whether storage can accept the result and whether the worker can reach the supply and destination.
+5. When access permission is the stated issue, use the bounded **Allow access** area described by the developer. Do not grant unrelated terrain changes simply to clear an unknown warning.
+6. Return to the original order and observe activity or progress before adding more jobs.
+
+Building details became more explicit in 0.9.17: missing materials, tools, research, storage, support, occupied space, flooding and safe access can be reported separately. Use [stalled construction](/building/stalled-construction/) when the problem is a building project rather than a general profession assignment.
+
+## Does every missing tool stop work completely?
+
+No. Version 0.9.15 says basic gathering, building, planting and carpentry can continue by hand at half speed, while ore mining still requires a pickaxe. A slower worker and a blocked miner are therefore different cases. This dated rule does not establish that every craft or advanced job can be done without equipment.
+
+Urgent Area prioritizes **ready** work; it does not create an absent ingredient or a safe route. Likewise, free residents returning toward the village centre after completing a job are not necessarily stuck. Check whether a new ready task exists before changing the whole colony’s roles.
+
+## What counts as a fix, and what if it still fails?
+
+The useful result is a resident reaching the job and the original task advancing. If the same blocker remains, record its wording, profession, allowed work, supply location and installed build. A screenshot or short reproduction video can show the failed stage without deleting a settlement or guessing a universal reset.
+
+This guide uses the free Demo’s 0.9.18 interface and explicitly dated earlier mechanics; it is an editorial diagnosis path, not a personal playtest. Continue with [perks and colony roles](/colonists/perks-and-colony-roles/), [farming checks](/food/farming-mushrooms-and-pumpkins/) or [storage and hauling](/colonists/storage-filters-and-hauling/) when the blocker points to those systems.
+
+## Which sources and version does this guide use?
+
+Checked November 6, 2026. Current reference: Demo 0.9.18; individual mechanics below retain the dated update that established them. This is a sourced editorial guide, not a claim of hands-on testing.
+
+- [official](https://stoneera.online/).
+- [StoneEra Demo 0.9.18 — A Fresh Look at Your Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) (2026-11-03).
+- [StoneEra Demo 0.9.15 — Life in the Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) (2026-10-12).
+- [StoneEra Demo 0.9.17 — Food, Seasons & Building](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041488) (2026-10-25).

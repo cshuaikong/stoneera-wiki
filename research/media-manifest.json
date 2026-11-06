@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "site": "stoneera",
+  "createdAt": "2026-11-06T13:55:01.029Z",
+  "originals": [
+    {
+      "name": "settlement-waterwheel",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/settlement-waterwheel-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:56.348Z",
+      "sha256": "bcd4d6099d175782a233d3a7a550d94e5cc6de71cbda5bfbb1c773344cc9a795",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "A StoneEra settlement with a waterwheel, fields and bridges beside the river",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\settlement-waterwheel.webp"
+    },
+    {
+      "name": "settlers-at-work",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/settlers-at-work-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:56.760Z",
+      "sha256": "4cb35b63361bf3e1ff120b05d5f21da41050a6c39e364e7eda3afb5872da3f02",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "StoneEra settlers working beside a house, stored goods and a building site",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\settlers-at-work.webp"
+    },
+    {
+      "name": "first-homestead",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/first-homestead-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:57.162Z",
+      "sha256": "1eaa385e984efbc1f841145f77453a06bea7f0ac4f3c05a0d7a5b28055c3a2ff",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "An early StoneEra homestead near a river and waterfall",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\first-homestead.webp"
+    },
+    {
+      "name": "building-by-river",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/building-by-river-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:57.695Z",
+      "sha256": "297f372ba5b6500bde2ce5a9d5aec5451d86fd155995284aae421893f4fac202",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "A StoneEra house and construction crane beside the river",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\building-by-river.webp"
+    },
+    {
+      "name": "forest-river",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/forest-river-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:58.278Z",
+      "sha256": "101eea91d2e28a6cc9a69be59d7198f4f8d924ef709c0f91dda940374cb50864",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "A StoneEra river winding through woodland and wetlands",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\forest-river.webp"
+    },
+    {
+      "name": "settlement-overview",
+      "url": "https://stoneera.online/media/2026-10-06/gallery/settlement-overview-1680.webp",
+      "source": "https://stoneera.online/",
+      "observedAt": "2026-11-06T13:30:45.087Z",
+      "fetchedAt": "2026-11-06T13:54:58.729Z",
+      "sha256": "f95d342fe43e25be61d7a104b85438207bd47afe44c2990ebe61a865d445ac12",
+      "width": 1680,
+      "height": 816,
+      "format": "webp",
+      "alt": "Aerial view of StoneEra homes, fields, walls and river crossings",
+      "cachePath": "E:\\出海\\sitebot\\.sitebot\\review\\stoneera-20261106\\cache\\media\\settlement-overview.webp"
+    }
+  ],
+  "derivatives": [
+    {
+      "slug": "beginners-guide",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\beginners-guide.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/first-homestead-1680.webp",
+        "originalSha256": "1eaa385e984efbc1f841145f77453a06bea7f0ac4f3c05a0d7a5b28055c3a2ff",
+        "sha256": "917cdf768ac1fc4b777d9bbcd1f6344bc9737b7b0776efe03c8972f859a1d566",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\beginners-guide.webp",
+        "url": "/images/articles/beginners-guide.webp",
+        "sha256": "1bfe18a672c3636c6027feb252190cc9d360d00f5df54798b82d2189dee1cfc8",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Wood",
+          "Workbench",
+          "Planks",
+          "Shelter"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:58.906Z"
+      }
+    },
+    {
+      "slug": "controls-orders-and-camera",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\controls-orders-and-camera.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-overview-1680.webp",
+        "originalSha256": "f95d342fe43e25be61d7a104b85438207bd47afe44c2990ebe61a865d445ac12",
+        "sha256": "778ef95d4b70682ffa485b8d819be2d7c5132e669e2de28405e0b9d2558b7690",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\controls-orders-and-camera.webp",
+        "url": "/images/articles/controls-orders-and-camera.webp",
+        "sha256": "714e6522bc62957a2b5c3dc456fb9e55b500795dc78151e43691cb9d773e25d3",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "R: object",
+          "Q: camera",
+          "Order",
+          "Cancel"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.044Z"
+      }
+    },
+    {
+      "slug": "research-and-first-copper-bar",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\research-and-first-copper-bar.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlers-at-work-1680.webp",
+        "originalSha256": "4cb35b63361bf3e1ff120b05d5f21da41050a6c39e364e7eda3afb5872da3f02",
+        "sha256": "6c4b6f79cbd77032e2b4d321e5f9c37ba7d05df224ac6dc8fde45c3d1e7c0721",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\research-and-first-copper-bar.webp",
+        "url": "/images/articles/research-and-first-copper-bar.webp",
+        "sha256": "912b0f36764b50c1a83c59b5c5cd6a2be255bf6f9ea0662ad55d35d8d8fdf844",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Table",
+          "Samples",
+          "Study",
+          "Copper bar"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.178Z"
+      }
+    },
+    {
+      "slug": "demo-vs-full-game",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\demo-vs-full-game.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-waterwheel-1680.webp",
+        "originalSha256": "bcd4d6099d175782a233d3a7a550d94e5cc6de71cbda5bfbb1c773344cc9a795",
+        "sha256": "d88e3ccb4781611f18911824f41ec4620164d8fab6b6ef7f5cecc9266d791259",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\demo-vs-full-game.webp",
+        "url": "/images/articles/demo-vs-full-game.webp",
+        "sha256": "db3787e8d1b6993bf3cac49b7a16e85462d334cb2dfedf1f2960fc0b078c3ef7",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Free Demo",
+          "12 tech",
+          "No timer",
+          "Later game"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.318Z"
+      }
+    },
+    {
+      "slug": "demo-updates",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\demo-updates.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-overview-1680.webp",
+        "originalSha256": "f95d342fe43e25be61d7a104b85438207bd47afe44c2990ebe61a865d445ac12",
+        "sha256": "778ef95d4b70682ffa485b8d819be2d7c5132e669e2de28405e0b9d2558b7690",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\demo-updates.webp",
+        "url": "/images/articles/demo-updates.webp",
+        "sha256": "9029dd25f2a2b3f95ad84aba56a962b8a1cfda624e9bdc1303b7e3f59f626a1d",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "0.9.17",
+          "0.9.17.1",
+          "0.9.17.2",
+          "0.9.18"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.456Z"
+      }
+    },
+    {
+      "slug": "dirt-blocks",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\dirt-blocks.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/building-by-river-1680.webp",
+        "originalSha256": "297f372ba5b6500bde2ce5a9d5aec5451d86fd155995284aae421893f4fac202",
+        "sha256": "992f442b10c475e96f9cef6932a0a365f34be6c325c38c728f2734ee6d2573aa",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\dirt-blocks.webp",
+        "url": "/images/articles/dirt-blocks.webp",
+        "sha256": "6b7cc615e3c4bff0ebb319518a4db7ee4dbc1feb80693c92c33801783951d993",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Build / Blocks",
+          "Material: Dirt",
+          "Order",
+          "Builder"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.591Z"
+      }
+    },
+    {
+      "slug": "stalled-construction",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\stalled-construction.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/building-by-river-1680.webp",
+        "originalSha256": "297f372ba5b6500bde2ce5a9d5aec5451d86fd155995284aae421893f4fac202",
+        "sha256": "992f442b10c475e96f9cef6932a0a365f34be6c325c38c728f2734ee6d2573aa",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\stalled-construction.webp",
+        "url": "/images/articles/stalled-construction.webp",
+        "sha256": "744c1e67bdec21c721433b01c69fbe6cf0947b9f4adef3e8d2cba77173cf7f49",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Materials",
+          "Safe access",
+          "Workers",
+          "Progress"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.727Z"
+      }
+    },
+    {
+      "slug": "deconstruct-and-move",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\deconstruct-and-move.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/building-by-river-1680.webp",
+        "originalSha256": "297f372ba5b6500bde2ce5a9d5aec5451d86fd155995284aae421893f4fac202",
+        "sha256": "992f442b10c475e96f9cef6932a0a365f34be6c325c38c728f2734ee6d2573aa",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\deconstruct-and-move.webp",
+        "url": "/images/articles/deconstruct-and-move.webp",
+        "sha256": "d8ee4f9949676641dd461a40b930239e2c0163242381626d05e562618033fea0",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Unfinished",
+          "Finished wall",
+          "Furniture",
+          "Correct action"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:54:59.862Z"
+      }
+    },
+    {
+      "slug": "building-editor-and-plans",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\building-editor-and-plans.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-overview-1680.webp",
+        "originalSha256": "f95d342fe43e25be61d7a104b85438207bd47afe44c2990ebe61a865d445ac12",
+        "sha256": "778ef95d4b70682ffa485b8d819be2d7c5132e669e2de28405e0b9d2558b7690",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\building-editor-and-plans.webp",
+        "url": "/images/articles/building-editor-and-plans.webp",
+        "sha256": "081fb992264f0887c0e49f2521d4c289436c6655695e3543a44d9ab7770afbec",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Editor",
+          "Saved plan",
+          "Place project",
+          "Construction"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.005Z"
+      }
+    },
+    {
+      "slug": "storage-filters-and-hauling",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\storage-filters-and-hauling.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlers-at-work-1680.webp",
+        "originalSha256": "4cb35b63361bf3e1ff120b05d5f21da41050a6c39e364e7eda3afb5872da3f02",
+        "sha256": "6c4b6f79cbd77032e2b4d321e5f9c37ba7d05df224ac6dc8fde45c3d1e7c0721",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\storage-filters-and-hauling.webp",
+        "url": "/images/articles/storage-filters-and-hauling.webp",
+        "sha256": "61c67d08abfd4e166b5f6efd8dc1e1b3bb9cfe548db0e309eae8f8e953cfa2a3",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Storage filter",
+          "Cargo",
+          "Accepting area",
+          "Hauler"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.142Z"
+      }
+    },
+    {
+      "slug": "professions-and-blocked-work",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\professions-and-blocked-work.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlers-at-work-1680.webp",
+        "originalSha256": "4cb35b63361bf3e1ff120b05d5f21da41050a6c39e364e7eda3afb5872da3f02",
+        "sha256": "6c4b6f79cbd77032e2b4d321e5f9c37ba7d05df224ac6dc8fde45c3d1e7c0721",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\professions-and-blocked-work.webp",
+        "url": "/images/articles/professions-and-blocked-work.webp",
+        "sha256": "969c5defaa27541166357f90f004cf487bc18f78db5c7b566822d229e96bc76a",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Work",
+          "Blocker",
+          "Supply",
+          "Resume"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.273Z"
+      }
+    },
+    {
+      "slug": "perks-and-colony-roles",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\perks-and-colony-roles.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlers-at-work-1680.webp",
+        "originalSha256": "4cb35b63361bf3e1ff120b05d5f21da41050a6c39e364e7eda3afb5872da3f02",
+        "sha256": "6c4b6f79cbd77032e2b4d321e5f9c37ba7d05df224ac6dc8fde45c3d1e7c0721",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\perks-and-colony-roles.webp",
+        "url": "/images/articles/perks-and-colony-roles.webp",
+        "sha256": "a739833b0ce41c16b2ba55474974f8f559bd76b77e6509e0b56935c2c038dde7",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Points",
+          "Requirements",
+          "Choice",
+          "Role"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.406Z"
+      }
+    },
+    {
+      "slug": "food-storage-and-spoilage",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\food-storage-and-spoilage.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/first-homestead-1680.webp",
+        "originalSha256": "1eaa385e984efbc1f841145f77453a06bea7f0ac4f3c05a0d7a5b28055c3a2ff",
+        "sha256": "917cdf768ac1fc4b777d9bbcd1f6344bc9737b7b0776efe03c8972f859a1d566",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\food-storage-and-spoilage.webp",
+        "url": "/images/articles/food-storage-and-spoilage.webp",
+        "sha256": "230e95fccd9ea55e788160e1b1bb087c6965297d5248e82e504c63e0ca621a90",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Age",
+          "Storage",
+          "Preserve",
+          "Reserve"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.536Z"
+      }
+    },
+    {
+      "slug": "farming-mushrooms-and-pumpkins",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\farming-mushrooms-and-pumpkins.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-waterwheel-1680.webp",
+        "originalSha256": "bcd4d6099d175782a233d3a7a550d94e5cc6de71cbda5bfbb1c773344cc9a795",
+        "sha256": "d88e3ccb4781611f18911824f41ec4620164d8fab6b6ef7f5cecc9266d791259",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\farming-mushrooms-and-pumpkins.webp",
+        "url": "/images/articles/farming-mushrooms-and-pumpkins.webp",
+        "sha256": "550a57e2a2893611507edb16948faa94ffc749b676bae29c19ee09ec62cafbf2",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Crop",
+          "Plot",
+          "Water",
+          "Harvest"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.671Z"
+      }
+    },
+    {
+      "slug": "seasons-and-winter",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\seasons-and-winter.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/forest-river-1680.webp",
+        "originalSha256": "101eea91d2e28a6cc9a69be59d7198f4f8d924ef709c0f91dda940374cb50864",
+        "sha256": "bec44b813a054e638d0520779c7c8ff8ca78ef3a7a05c3a5b6cb7969e1e1c34c",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\seasons-and-winter.webp",
+        "url": "/images/articles/seasons-and-winter.webp",
+        "sha256": "5e3fe16f725917904f72d64f95d50e7260a87d8c92246c9711f0809132dad6ec",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "Calendar",
+          "Harvest",
+          "Pantry",
+          "Winter"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.806Z"
+      }
+    },
+    {
+      "slug": "waterworks-and-irrigation",
+      "cover": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\src\\assets\\covers\\waterworks-and-irrigation.webp",
+        "sourceUrl": "https://stoneera.online/media/2026-10-06/gallery/settlement-waterwheel-1680.webp",
+        "originalSha256": "bcd4d6099d175782a233d3a7a550d94e5cc6de71cbda5bfbb1c773344cc9a795",
+        "sha256": "d88e3ccb4781611f18911824f41ec4620164d8fab6b6ef7f5cecc9266d791259",
+        "width": 1200,
+        "height": 675,
+        "method": "Resize/crop official promotional gallery image; not proof of current Demo access"
+      },
+      "body": {
+        "path": "E:\\出海\\sitebot\\runs\\stoneera\\public\\images\\articles\\waterworks-and-irrigation.webp",
+        "url": "/images/articles/waterworks-and-irrigation.webp",
+        "sha256": "a583370650ce15aa87066922c374adbacb92deb46d197052227044cefa4a7f62",
+        "width": 1200,
+        "height": 675,
+        "labels": [
+          "W1 / version",
+          "Source",
+          "Channel",
+          "Flow"
+        ],
+        "method": "Original SVG-based reading checkpoints; independent cards do not claim game-mechanic dependencies",
+        "generatedAt": "2026-11-06T13:55:00.945Z"
+      }
+    }
+  ],
+  "hero": {
+    "path": "public/images/hero.webp",
+    "url": "/images/hero.webp",
+    "sha256": "7c9375684d6140602e51d80f653f2930fa3f5fce82e958eef3174006c0bb4784",
+    "source": "https://stoneera.online/media/2026-10-06/gallery/settlement-waterwheel-1680.webp",
+    "width": 1200,
+    "height": 630
+  },
+  "video": [
+    {
+      "tag": "SOURCE",
+      "src": "/media/2026-10-06/stoneera-trailer-720p.mp4",
+      "poster": null,
+      "title": null,
+      "url": "https://stoneera.online/media/2026-10-06/stoneera-trailer-720p.mp4",
+      "description": "Official StoneEra trailer, website displays1:10,720pfile."
+    }
+  ],
+  "videoUsage": "Retained official source metadata; not used to assert watched gameplay or current feature availability",
+  "cost": {
+    "currency": "CNY",
+    "imageGenerationModelCalls": 0,
+    "localProcessingAmount": 0,
+    "networkBilling": null
+  }
+}

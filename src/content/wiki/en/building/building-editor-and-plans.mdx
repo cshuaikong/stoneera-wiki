@@ -1,0 +1,60 @@
+---
+title: Save a Building Plan and Use It in Your Settlement
+description: Create and save StoneEra building plans, find them in Buildings and separate reusable editor designs from Normal-mode materials, workers and safe access.
+category: building
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/building-editor-and-plans.webp
+tags:
+  - building
+  - demo
+  - controls
+gameVersion: Demo 0.9.18
+summary: Create a design in Building Editor, save it locally and select it from Buildings in your settlement. A saved plan is a reusable design; placing it does not prove the structure is already constructed. Check materials, research and access for Normal-mode projects. Exported .stoneera-building files share designs, while Copy Area and Clone remain separate tools.
+author: StoneEra Wiki Team
+faq:
+  - question: Why is my Buildings list empty?
+    answer: The 0.9.14.1 instructions say locally saved designs appear there; create and save a plan in Building Editor first. Later 0.9.15 also adds three starter houses, so compare the exact version and list you are viewing.
+  - question: Can plans include furnishings?
+    answer: The developer says saved plans may contain furniture and production stations. Their inclusion in a design is not proof that all required research and materials are available in your colony.
+  - question: What file type is used to share plans?
+    answer: The 0.9.14.2 announcement introduces portable .stoneera-building export/import files. It does not provide a verified operating-system save directory or guarantee compatibility across every future version.
+  - question: What do Y/H and Enter do for Copy Area?
+    answer: The 0.9.15 notes say Copy Area retains the selection after release, Y/H adjusts its height and Enter copies it. Save building creates a reusable local plan. These are that tool’s documented shortcuts, not universal editor bindings.
+  - question: Is the editor a finished stable system?
+    answer: The developer repeatedly describes building plans and Building Editor as early-alpha experiments. Later improvements do not establish that every design, site or imported file is error-free.
+---
+
+## How do you create and find a reusable plan?
+
+Open **Building Editor**, create a design and save it locally. The [original building-plan announcement](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067929580) says saved designs appear in the settlement’s **Buildings** menu. If a local-design list is empty, first check that you actually saved a plan in the editor instead of merely leaving an unsaved preview open.
+
+![Original Building Editor and reusable-plan flow diagram, not a gameplay screenshot](/images/articles/building-editor-and-plans.webp)
+
+Later 0.9.15 notes add three starter houses beside saved plans and describe opening Building Editor from gameplay before returning to the same world. Demo 0.9.18 groups Buildings with the other Build tools. These dated changes explain why an older screenshot may show a different entry point without proving that your design was deleted.
+
+## What can the editor save, and what happens after placement?
+
+The documented editor includes Single, Line, Plane and Box tools, height control, floor visibility and Undo/Redo; plans can include furniture and production stations. The [0.9.14.2 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067934531) adds cards with previews, dimensions, beds and block counts. Those card details help identify the intended design before you place another construction project.
+
+1. Finish the intended design and save it locally.
+2. Find the corresponding design in Buildings and compare its preview and dimensions.
+3. Select an appropriate location for the project rather than assuming every terrain shape fits.
+4. In Normal-mode construction, check the project’s reported research, materials and access requirements.
+5. Observe actual project progress and completion; seeing a plan card or a placed order alone is not the same result.
+
+The original announcement describes villagers clearing and preparing a site, constructing the structure and then installing furnishings. Later project feedback provides specific blockers. Use the [construction diagnostic](/building/stalled-construction/) if the design exists but work does not advance; an editor redesign is not automatically necessary for a missing delivery.
+
+## How are export, Copy Area and Clone different?
+
+Portable **.stoneera-building** files support exporting and importing local designs. **Copy Area**, documented in 0.9.15, retains a chosen selection after release: Y/H adjusts its height, Enter copies it, and **Save building** creates a reusable local plan. Demo 0.9.18 separately describes cloning supported blocks and objects with their settings.
+
+Keep those outcomes separate. Export/import transfers a design file; saving a plan makes it reusable; cloning supported settings is not a promise of free construction or relocating the original. For actual relocation or removal of existing objects, follow the [move and deconstruct distinctions](/building/deconstruct-and-move/).
+
+## What should you do when a plan is missing or fails?
+
+Check the narrowest state first: was the design saved, does its card appear, and does a placed project report a specific blocker? The developer identifies these tools as early alpha. That supports preserving the design and recording a reproducible failure, rather than treating every absent plan or awkward site as proof that the whole colony must be reset.
+
+The sources do not establish a universal filesystem directory, complete cross-version import rules or a blueprint that bypasses the demo’s research limits. Keep a copy of important exported designs. When reporting a problem, include the installed version, Normal/Creative mode, which tool was used and whether the failure occurs before or after placing the project.
+
+Check [storage and hauling](/colonists/storage-filters-and-hauling/) for resource delivery issues. This guide uses complete developer demo announcements through 0.9.18, checked November 6; it does not claim a personally tested design catalogue or verified full-game compatibility.

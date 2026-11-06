@@ -1,0 +1,62 @@
+---
+title: "Storage Filters: Get Cargo to an Accepting Destination"
+description: Set StoneEra storage areas to All cargo, Food only or No food, then diagnose accessible destinations, crate contents and food-age preservation.
+category: colonists
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/storage-filters-and-hauling.webp
+tags:
+  - colonists
+  - demo
+  - storage
+gameVersion: Demo 0.9.18
+summary: Select a marked storage floor tile or a container in that connected area, then choose All cargo, Food only or No food. Haulers need a reachable destination that accepts the cargo before moving unsuitable goods. A filter change does not reset food age or instantly empty every crate; existing contents and transport access still matter.
+author: StoneEra Wiki Team
+faq:
+  - question: Where do I change an area’s cargo filter?
+    answer: The 0.9.17.1 notes say to select a marked floor tile or a container in the connected storage area, then choose All cargo, Food only or No food.
+  - question: Why is incompatible cargo not moving?
+    answer: Haulers need an accessible destination whose filter accepts it. A destination that rejects the same item does not meet that condition. Check both acceptance and reachability before assuming a broken filter.
+  - question: Do large crates mix food and other materials?
+    answer: The 0.9.17.1 notes say they keep those categories separate, with contents determining a crate’s category until it is empty. Older mixed crates retain contents while haulers sort incompatible goods when suitable storage exists.
+  - question: Will moving food into another crate make it fresh?
+    answer: No. Moving, splitting and combining food preserve its age; save/load also preserve batch ages. Better storage can reduce accelerated aging but cannot extend a food’s stated maximum life.
+  - question: Is there one stack capacity for every resource?
+    answer: No universal capacity follows from the cited examples. Idle haulers combine partial containers of the same material up to their actual capacity; check the specific container rather than using one material’s limit for all cargo.
+---
+
+## How do you assign a food or non-food area?
+
+Select a marked floor tile or a container belonging to the connected storage area. The [0.9.17.1 announcement](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046071) gives three policies: **All cargo**, **Food only** and **No food**. Choose the policy for that area, then check the other area that should receive goods the first one no longer accepts.
+
+![Original storage-policy and hauling flow diagram, not a gameplay screenshot](/images/articles/storage-filters-and-hauling.webp)
+
+The settings persist with the world. More importantly, the developer conditions relocation on an **accessible, accepting destination**. Changing a label does not establish that such a destination exists. It also does not demonstrate that every container will empty immediately or that every available resident is currently delivering that cargo.
+
+## What should you check when goods stay in the wrong place?
+
+Check the source policy, destination policy and route as separate prerequisites. An area reserved for food cannot also be assumed to receive rejected building materials. A destination accepting those materials still needs to be reachable. This gives a useful diagnostic order without inventing a fixed delay or throughput guarantee for every settlement.
+
+| Check | What it establishes |
+| --- | --- |
+| The selected floor/container belongs to the intended connected area | You changed the correct storage area rather than a different nearby one. |
+| The destination accepts the cargo category | There is somewhere eligible for the goods to go. |
+| The destination and crate have usable access | Acceptance alone is not the whole delivery prerequisite. |
+| Existing crate contents are understood | A category or older mixed-crate state may explain what you see. |
+| Delivery is observed | A changed filter text alone does not prove hauling is complete. |
+
+For cargo on a raised floor, the earlier [0.9.15.1 notes](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706673616) describe reachable standing positions, lifts and approaches to their crank. They do not establish that any arbitrarily blocked elevator setup will recover itself. Keep the actual access problem distinct from a category-filter question.
+
+## Why do crate contents and packing matter?
+
+Large crates separate food from non-food goods; the contents determine the category until the crate empties. An older save may contain a mixed crate that retains its contents while haulers move incompatible goods once appropriate storage is available. Seeing that older mixed state is therefore not, by itself, proof that the new policy was ignored.
+
+The same notes describe idle haulers combining nearby partial containers of the same material up to real capacity. Their plank example changes six plus five into eight plus three: the material is consolidated, not multiplied. Empty containers remain reusable. Do not apply that example’s capacity to every food, tool or cargo type.
+
+## Does sorting improve food safety or reset freshness?
+
+Food-containing containers gain a muted green tint, including during transport, which helps identify the category. However, moving, splitting or combining food preserves its batch age, and save/load do too. Sorting is not a freshness reset. Heat and poor storage can accelerate aging; better conditions reduce that acceleration without extending the stated maximum lifetime.
+
+If construction still reports missing supplies, use the [material-state checklist](/building/stalled-construction/) to distinguish free stock from incoming or already delivered materials. A [saved building plan](/building/building-editor-and-plans/) is not proof that deliveries are ready, and [dismantled objects](/building/deconstruct-and-move/) do not establish an instant, universal resource refund.
+
+If a reachable, accepting destination still receives nothing, preserve the state and report the demo version, policies, cargo and route with screenshots. This is dated developer guidance through the 0.9.18 period, checked November 6; no personal hauling benchmark or universal cargo-repair command is claimed.

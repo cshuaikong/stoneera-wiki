@@ -1,0 +1,61 @@
+---
+title: "Food Storage and Spoilage: Build a Useful Reserve"
+description: "Read StoneEra food batch expiry, separate remaining life from maximum life and plan preserved supplies without assuming crates reset freshness."
+category: food
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/food-storage-and-spoilage.webp
+tags: ["food","demo","survival"]
+gameVersion: Demo 0.9.18
+summary: "Food ages by batch, so moving or merging it does not restore freshness. Fresh cooked meals have a six-game-day maximum in ideal storage; other foods have their own limits. Inspect the oldest batch in the actual container, reduce accelerated aging and use the documented preserved-food chains for a longer reserve."
+author: StoneEra Wiki Team
+draft: false
+faq:
+  - question: "Does moving food to another crate reset freshness?"
+    answer: "No. Batch ages survive moving, splitting, merging, carried inventory and save/load. Read the oldest batch’s remaining time in the selected container."
+  - question: "Does every food last six days?"
+    answer: "No. Six game days is the published ideal-storage maximum for fresh cooked meals in 0.9.17.1. Other foods have their own lifetimes."
+  - question: "Which preservation chains are documented?"
+    answer: "After F1 Cooking, smoke meat or fish at a Cooking stove, or dry berries and blueberries at a Drying rack. The 0.9.17 notes say these preserved foods do not spoil in storage."
+---
+
+## Why can food spoil even inside a crate?
+
+A crate helps with storage conditions; it does not stop a perishable food’s age. The [0.9.17.1 update](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046071) changes food to batch-based aging. One fresh cooked meal and seventy equally fresh meals have the same maximum lifetime: six game days under ideal storage. This is not a six-day rule for every food in the game.
+
+![Original reading checkpoints for Age, Storage, Preserve and Reserve; not a game screenshot](/images/articles/food-storage-and-spoilage.webp)
+
+These are independent reading checks: Age is existing batch age, Storage is its environment, Preserve means the documented food-processing option, and Reserve is the supply available to the settlement. They are not an in-game recipe diagram or a promise of an exact survival duration.
+
+Heat and open piles can shorten storage life. Cool rooms, crates and earth-covered cellars help avoid faster aging, but none extends a food beyond its own maximum. Check nearby campfires when choosing the pantry location. No exact temperature formula or refrigerator technology is established by these notes.
+
+## Which expiry number should you inspect?
+
+Select the **actual food container** and read the estimated time until its oldest batch expires under current conditions. The stock browser describes maximum shelf lives. Maximum life and remaining life answer different questions: a nearly expired batch does not become fresh because the reference entry describes a longer possible lifetime.
+
+Moving food, splitting or merging stacks, carrying it in a resident’s inventory, and saving/loading preserve its age. Adding fresh meals is not a reset for the older batch. Expired food cannot be eaten or used as an ingredient. Check age before planning a large production chain around a pile that is already close to expiry.
+
+## How can you build supplies that last longer?
+
+The [0.9.17 Demo announcement](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041488) adds preservation after **F1 Cooking**: smoke meat or fish at a Cooking stove, and use a Drying rack for berries or blueberries. Those preserved foods do not spoil in storage, and residents eat other food first. That is a specific documented chain, not a rule that all cooked food is permanent.
+
+The same announcement lists grain, flour, seeds, beer and pumpkins as non-perishable and exempts Creative mode from spoilage. Check the Research panel and actual station requirements within the Demo’s twelve-technology limit; this guide does not grant later Full game technologies or invent a cellar construction recipe.
+
+1. Read the oldest batch’s remaining time in its container.
+2. Identify heat exposure or an open pile that could accelerate aging.
+3. Keep an accepting food-storage destination reachable so the intended pantry can actually receive supplies.
+4. Use the appropriate F1 preservation process when available, keeping its ingredients and station distinct.
+5. Review the settlement’s food-days reserve and compare it with the coming season, not just the number of containers.
+
+## Does a Quartermaster remove the shelf-life limit?
+
+No. A fit, awake Quartermaster reduces aging caused by heat and poor storage by 20%, without exceeding maximum shelf life. It also warns below two food-days. Treat the role as support for storage management, not rejuvenation of old stock. See [perks and roles](/colonists/perks-and-colony-roles/) for its conditions.
+
+Success means the selected container reports the expected remaining age and the colony has usable supplies, including an appropriate preserved reserve. If food still ages unexpectedly, record the food type, batch estimate, location, game mode and build. These are dated Demo rules, not an independently tested pantry design. Connect the plan to [winter preparation](/world/seasons-and-winter/) and [mushroom or pumpkin farming](/food/farming-mushrooms-and-pumpkins/).
+
+## Which sources and version does this guide use?
+
+Checked November 6, 2026. Current reference: Demo 0.9.18; individual mechanics below retain the dated update that established them. This is a sourced editorial guide, not a claim of hands-on testing.
+
+- [StoneEra Demo 0.9.17.1 — Critical Bug Fix & Colony Improvements](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046071) (2026-10-26).
+- [StoneEra Demo 0.9.17 — Food, Seasons & Building](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041488) (2026-10-25).

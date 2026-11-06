@@ -1,0 +1,47 @@
+---
+title: "操作说明：旋转物体、相机与单项订单"
+description: "分清 R 旋转物体和 Q 旋转聚落相机，了解 Demo 0.9.18 单项订单取消、受支持对象克隆，以及居民控制与观察模式的区别。"
+category: "start"
+date: "2026-11-06"
+lastModified: "2026-11-06"
+image: "../../../../assets/covers/controls-orders-and-camera.webp"
+tags: ["controls","demo","building"]
+gameVersion: "Demo 0.9.18"
+summary: "旋转物体用 R，旋转聚落相机用 Q。Demo 0.9.18 把 Orders、Buildings、Blocks、Objects 汇到 Build 中，并支持查看和取消单个工作订单。居民 Control 与 Through Eyes 的按键语境不同，先确认当前视角和工具，再判断快捷键是否异常。"
+author: "StoneEra Wiki Team"
+faq: [{"question":"为什么按 R 改变的是视角，不是物体？","answer":"按键作用随模式变化。0.9.17.2 指定 R 旋转物体、Q 旋转聚落相机；居民 Through Eyes 的旧版说明则用 R 自由观察，不能混用两种语境。"},{"question":"可以只取消一个采矿或种植订单吗？","answer":"0.9.18 明确加入单项建造、采矿和种植订单的查看与取消。这与删除已经建好的墙不同。"},{"question":"所有物体都能克隆吗？","answer":"官方只说受支持的方块和对象可连同设置克隆，没有承诺全部对象或整栋建筑都支持。"}]
+---
+
+## 旋转物体和相机分别用什么？
+
+R 旋转物体，Q 旋转聚落相机，这是 Demo 0.9.17.2 明确的区分。排查前先确认视角：居民相关模式对部分相同按键赋予了不同功能，输入框激活时相机快捷键也可能被屏蔽，不能只凭一次按键结果认定失灵。
+
+依据是[0.9.17.2 操作说明](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302237390)。这不是完整按键表。若结果与预期不同，先结束文字输入，再确认自己处于物体放置、聚落视角，还是居民观察模式。
+
+## 0.9.18 在哪里处理建筑和工作订单？
+
+当前 Build 汇集 Orders、Buildings、Blocks 与 Objects。0.9.18 新增单项订单检查、取消；只想去掉一个未完成任务时，先用范围明确的操作，不要直接对整片区域下清除指令，误删周围仍有用的工作。
+
+| 想改变的对象 | 对应操作范围 |
+| --- | --- |
+| 一个未完成的建造、采矿、种植任务 | 检查并取消这个单项订单 |
+| 已完成的墙体 | 使用已获开发者说明的 Mining，不是取消待办 |
+| 支持克隆的方块或对象 | 看到相应操作时，连同设置克隆 |
+| 需要复用的多对象设计 | 保存建筑编辑器方案，不假设克隆能包办 |
+
+[0.9.18 公告](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682)证实这些能力，但没有提供通用按钮坐标或完整支持列表。破坏性操作前，可先看[拆除与取消的区别](/zh/building/deconstruct-and-move/)和[保存建筑方案](/zh/building/building-editor-and-plans/)。
+
+
+![原创操作提示卡：物体 R、相机 Q、订单与取消；实际功能要结合当前模式。](/images/articles/controls-orders-and-camera.webp)
+
+## Control 与 Through Eyes 有何不同？
+
+Control 是自己移动居民，Through Eyes 则是跟随仍在自主行动的居民。[0.9.15 更新](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304)说明，Control 采用 WASD 移动、Shift 跑步，居民会先安全交接手上的工作和货物。观察模式不能视作同一种直接控制状态。
+
+对应居民视角，官方说明的快捷键为 R 自由观察、H 开关界面、Esc 返回聚落相机。不要把这里 R 的含义套到物体放置中，也不要因为切换视角就忽略居民还在交接工作。
+
+## 怎样确认只取消了想取消的任务？
+
+检查所选待办是否已不再活跃，再看邻近任务是否保留。取消项目和删除成品方块解决的是不同问题。现有公告没有承诺所有取消操作统一一键，也没有保证所有已经安装的材料都能全额回收。
+
+若真正的问题是工作停住而非订单多余，优先查[工作阻塞条件](/zh/colonists/professions-and-blocked-work/)。界面仍对不上时，记录版本、视角和当时工具；[试玩更新记录](/zh/game-info/demo-updates/)可以帮助识别过时操作说明。

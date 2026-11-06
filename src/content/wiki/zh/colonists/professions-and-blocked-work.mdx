@@ -1,0 +1,64 @@
+---
+title: "职业与工作阻塞：让居民开始执行任务"
+description: "StoneEra 居民不工作时，先查 Work 权限和任务阻塞说明，再核对工具、材料、接收仓储与通行条件，不靠反复下单猜问题。"
+category: colonists
+date: 2026-11-06
+lastModified: 2026-11-06
+image: ../../../../assets/covers/professions-and-blocked-work.webp
+tags: ["colonists","demo","work"]
+gameVersion: Demo 0.9.18
+summary: "先看居民的 Work 权限，再读具体任务为什么被阻塞。重复下达同样的命令不能补齐工具、材料、接收仓储或安全通路。Demo 0.9.18 让职业与优先级更清楚；真正的成功标志是补齐前置条件后，原任务开始推进。"
+author: StoneEra Wiki Team
+draft: false
+faq:
+  - question: "居民闲着时先看哪个界面？"
+    answer: "先在 Work 检查职业、许可和优先级，再读选中任务的具体障碍。反复换职业不会自动生成缺失工具或道路。"
+  - question: "没有工具就一定完全停工吗？"
+    answer: "0.9.15 允许基础采集、建造、种植和木工徒手以半速继续，矿石开采仍需镐。这不是所有高阶工作都免工具。"
+  - question: "Urgent Area 能清除工作障碍吗？"
+    answer: "不能。它优先安排已具备条件的任务；材料、通路等实际要求仍需先满足。"
+---
+
+## 没有人开始工作，先看哪里？
+
+打开 **Work**，把居民的职业、工作许可和优先级与目标任务对应起来，再查看任务本身。[0.9.18 更新](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682)整理了这个界面，但并没有让所有排队命令自动变成可执行任务。再复制一条无法完成的命令，原来的前置条件仍然缺失。
+
+![原创 Work、Blocker、Supply、Resume 阅读检查卡，不是游戏实机图](/images/articles/professions-and-blocked-work.webp)
+
+这是阅读检查点，不是游戏按钮或解锁公式。Work 指工作分配，Blocker 指任务写明的障碍，Supply 指缺失的供应条件，Resume 指返回原任务确认它已推进。
+
+官网列出十四种职业：Builder、Miner、Woodcutter、Farmer、Carpenter、Stone Mason、Blacksmith、Tailor、Cook、Brewer、Engineer、Herbalist、Hunter 和 Fisher。它是职业名单，不是完整解锁表，也不代表小村庄必须立即安排齐十四种分工。
+
+## 怎样把被阻塞的命令变成实际工作？
+
+调整优先级之前，先读 Task List 的解释。[0.9.15 的工作改动](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304)说明，居民会先准备工具、材料、仓储和获准的通路，再返回原来的任务。应检查从可用工人到任务目标的整条链，而不是看到人物闲着就断言游戏出错。
+
+1. 确认至少有适合的居民获准执行这一类工作。
+2. 读选中任务的阻塞说明，找到它针对的位置。
+3. 检查准确的材料或工具，不要拿名称相近的物品代替。
+4. 看接收仓储能否接受产出，以及居民能否到达物资和目的地。
+5. 如果明确缺少通行许可，使用开发者说明的有限 **Allow access** 区域，不要为了清除未知提示而允许无关地形改动。
+6. 返回原命令，观察居民行动或任务进度后，再添加更多工作。
+
+0.9.17 进一步区分了建筑项目缺材料、工具、研究、仓储、支撑、空闲空间、排水和安全通路等原因。若问题属于建筑工程，请继续看[建筑停滞排查](/zh/building/stalled-construction/)，不能只改居民职业。
+
+## 缺少工具就一定完全停工吗？
+
+不是。0.9.15 说明，基础采集、建造、种植和木工可以徒手继续，但速度减半；开采矿石仍然需要镐。因此，工作较慢与矿工无法开工是不同情况。这个有版本范围的规则，也不等于所有高级制作都可以不用装备。
+
+Urgent Area 提高的是**已经具备条件**的工作优先级，不会生成缺失材料或安全道路。居民完成任务后返回村庄中心等待，也不一定是卡死。大幅修改全村分工之前，先确认下一项任务确实已经就绪。
+
+## 怎样确认修复成功，仍失败时怎么办？
+
+应看到居民抵达工作地点，且原任务开始推进。如果同一障碍还在，记录提示原文、职业、许可、供应位置和游戏版本，再附截图或简短复现过程。这样可以指出失败环节，不需要删除村庄或猜测通用重置方法。
+
+本页使用免费 Demo 0.9.18 的界面，以及明确标注版本的旧更新规则，是资料整理的排查路径，不是本站实机测试。相关问题可继续查看[个人技能与殖民地角色](/zh/colonists/perks-and-colony-roles/)、[农田排查](/zh/food/farming-mushrooms-and-pumpkins/)和[仓储筛选与搬运](/zh/colonists/storage-filters-and-hauling/)。
+
+## 本页依据哪些来源与版本？
+
+资料核对于 2026 年 11 月 6 日。当前参考 Demo 0.9.18；各项机制保留建立该规则的版本与日期。本页是来源核查后的编辑指南，不声称本站已进行实机测试。
+
+- [official](https://stoneera.online/).
+- [StoneEra Demo 0.9.18 — A Fresh Look at Your Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302250682) (2026-11-03).
+- [StoneEra Demo 0.9.15 — Life in the Colony](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067942304) (2026-10-12).
+- [StoneEra Demo 0.9.17 — Food, Seasons & Building](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114041488) (2026-10-25).
